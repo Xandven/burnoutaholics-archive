@@ -1,0 +1,48 @@
+{
+ "nid": "2069",
+ "title": "Which Burnout would you like to see a sequel to?",
+ "active": "1",
+ "total_votes": 14,
+ "choices": [
+  {
+   "text": "Burnout",
+   "votes": 0,
+   "weight": 0
+  },
+  {
+   "text": "Point of Impact",
+   "votes": 1,
+   "weight": 1
+  },
+  {
+   "text": "Takedown",
+   "votes": 2,
+   "weight": 2
+  },
+  {
+   "text": "Revenge",
+   "votes": 6,
+   "weight": 3
+  },
+  {
+   "text": "Legends",
+   "votes": 0,
+   "weight": 4
+  },
+  {
+   "text": "Dominator",
+   "votes": 0,
+   "weight": 5
+  },
+  {
+   "text": "Paradise",
+   "votes": 3,
+   "weight": 6
+  },
+  {
+   "text": "CRASH!",
+   "votes": 2,
+   "weight": 7
+  }
+ ]
+}

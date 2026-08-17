@@ -1,0 +1,18 @@
+{
+ "nid": "1393",
+ "title": "Have you bought any of the Burnout Paradise Merchandise?",
+ "active": "1",
+ "total_votes": 221,
+ "choices": [
+  {
+   "text": "Yes",
+   "votes": 68,
+   "weight": 0
+  },
+  {
+   "text": "No",
+   "votes": 153,
+   "weight": 1
+  }
+ ]
+}

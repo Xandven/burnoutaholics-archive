@@ -1,0 +1,51 @@
+{{/* Frozen comment thread. Markup mirrors Drupal 7 + Bartik so comment.css and
+     style.css apply unchanged. Personal data never reaches here: extract.py
+     carries username and avatar only — no email, no IP.
+     Permalinks point at the in-page anchor, since /comment/N has no static
+     equivalent. */}}
+{{ $nid := .Params.nid }}
+{{ $comments := index .Site.Data.comments (printf "%v" $nid) }}
+{{ with $comments }}
+<div id="comments" class="comment-wrapper">
+  <h2 class="title">Comments</h2>
+
+  {{ range . }}
+  {{ $depth := 0 }}
+  {{ with .thread }}{{ $depth = sub (len (split . ".")) 1 }}{{ end }}
+  <a id="comment-{{ .cid }}"></a>
+  <div class="comment clearfix{{ if gt $depth 0 }} indented{{ end }}"
+       {{ if gt $depth 0 }}style="margin-left:{{ mul $depth 25 }}px"{{ end }}>
+
+    <div class="attribution">
+      {{ with .avatar }}
+      <div class="user-picture">
+        <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy" />
+      </div>
+      {{ end }}
+      <div class="submitted">
+        <p class="commenter-name">
+          <span class="username">{{ .author }}</span>
+        </p>
+        <p class="comment-time">
+          {{ with .created }}
+            {{ $t := time . }}
+            <span>{{ $t.Format "Mon, 01/02/2006 - 15:04" }}</span>
+          {{ end }}
+        </p>
+        <p class="comment-permalink">
+          <a href="#comment-{{ .cid }}" class="permalink" rel="bookmark">Permalink</a>
+        </p>
+      </div>
+    </div>
+
+    <div class="comment-text">
+      <div class="comment-arrow"></div>
+      {{ with .subject }}<h3><span class="comment-title">{{ . }}</span></h3>{{ end }}
+      <div class="content">
+        {{ .body | safeHTML }}
+      </div>
+    </div>
+  </div>
+  {{ end }}
+</div>
+{{ end }}

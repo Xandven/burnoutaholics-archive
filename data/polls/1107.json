@@ -1,0 +1,38 @@
+{
+ "nid": "1107",
+ "title": "What Bike Gameplay are you most looking forward to?",
+ "active": "1",
+ "total_votes": 121,
+ "choices": [
+  {
+   "text": "Freeburn Challenges",
+   "votes": 14,
+   "weight": 0
+  },
+  {
+   "text": "Timed Multipart Challenges",
+   "votes": 3,
+   "weight": 1
+  },
+  {
+   "text": "Road Rules",
+   "votes": 6,
+   "weight": 2
+  },
+  {
+   "text": "Burning Routes/Burnout Rides",
+   "votes": 17,
+   "weight": 3
+  },
+  {
+   "text": "Just dicking around on a Bike",
+   "votes": 74,
+   "weight": 4
+  },
+  {
+   "text": "I'm not looking forward to Bikes at all",
+   "votes": 7,
+   "weight": 5
+  }
+ ]
+}

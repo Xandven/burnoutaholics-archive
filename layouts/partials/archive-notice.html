@@ -1,0 +1,13 @@
+{{/* Occupies the slot where Drupal's "User login" block used to sit, keeping the
+     sidebar visually balanced. Login cannot exist on a static archive, and a
+     non-functional login form would be misleading. */}}
+<div id="block-archive-notice" class="block block-archive first">
+  <h2>About this archive</h2>
+  <div class="content">
+    <p>BurnoutAholics is now a read-only archive. Every article, forum thread,
+       comment and poll from {{ with .Site.Params.archiveFrom }}{{ . }}{{ else }}2007{{ end }}
+       onwards is preserved here exactly as it was written.</p>
+    <p>Accounts, logins and new posts are no longer available — but nothing has
+       been taken away.</p>
+  </div>
+</div>

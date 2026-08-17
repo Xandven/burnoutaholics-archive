@@ -1,0 +1,48 @@
+{
+ "nid": "618",
+ "title": "Where did you hear about BurnoutAholics.com?",
+ "active": "1",
+ "total_votes": 69,
+ "choices": [
+  {
+   "text": "Crash FM podcast",
+   "votes": 4,
+   "weight": 0
+  },
+  {
+   "text": "CriterionGames.com",
+   "votes": 10,
+   "weight": 1
+  },
+  {
+   "text": "OperationBurnout.com",
+   "votes": 4,
+   "weight": 2
+  },
+  {
+   "text": "XBox Forums",
+   "votes": 12,
+   "weight": 3
+  },
+  {
+   "text": "Search engine (i.e. Google, yahoo, MSN Live search...)",
+   "votes": 10,
+   "weight": 4
+  },
+  {
+   "text": "Wikipedia.com",
+   "votes": 8,
+   "weight": 5
+  },
+  {
+   "text": "From a BurnoutAholic",
+   "votes": 11,
+   "weight": 6
+  },
+  {
+   "text": "Other (please add comment)",
+   "votes": 10,
+   "weight": 7
+  }
+ ]
+}

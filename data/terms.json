@@ -1,0 +1,488 @@
+{
+ "1": {
+  "tid": "1",
+  "vid": "1",
+  "name": "News",
+  "description": "News about Burnout.",
+  "vocabulary": "Burnout",
+  "parent": "0",
+  "weight": 0
+ },
+ "2": {
+  "tid": "2",
+  "vid": "1",
+  "name": "Clips",
+  "description": "Burnout clips.",
+  "vocabulary": "Burnout",
+  "parent": "0",
+  "weight": 0
+ },
+ "3": {
+  "tid": "3",
+  "vid": "2",
+  "name": "Information",
+  "description": "",
+  "vocabulary": "BurnoutAholics",
+  "parent": "0",
+  "weight": 0
+ },
+ "4": {
+  "tid": "4",
+  "vid": "2",
+  "name": "News",
+  "description": "",
+  "vocabulary": "BurnoutAholics",
+  "parent": "0",
+  "weight": 0
+ },
+ "5": {
+  "tid": "5",
+  "vid": "2",
+  "name": "Utils",
+  "description": "",
+  "vocabulary": "BurnoutAholics",
+  "parent": "0",
+  "weight": 0
+ },
+ "6": {
+  "tid": "6",
+  "vid": "1",
+  "name": "Media",
+  "description": "Video, pictures, music or sound related to Burnout",
+  "vocabulary": "Burnout",
+  "parent": "0",
+  "weight": 0
+ },
+ "7": {
+  "tid": "7",
+  "vid": "2",
+  "name": "Media",
+  "description": "Video, pictures, music or sound related to the Burnout Community.",
+  "vocabulary": "BurnoutAholics",
+  "parent": "0",
+  "weight": 0
+ },
+ "8": {
+  "tid": "8",
+  "vid": "1",
+  "name": "Game information",
+  "description": "",
+  "vocabulary": "Burnout",
+  "parent": "0",
+  "weight": 0
+ },
+ "9": {
+  "tid": "9",
+  "vid": "1",
+  "name": "Press release",
+  "description": "",
+  "vocabulary": "Burnout",
+  "parent": "0",
+  "weight": 0
+ },
+ "10": {
+  "tid": "10",
+  "vid": "2",
+  "name": "Background information",
+  "description": "",
+  "vocabulary": "BurnoutAholics",
+  "parent": "0",
+  "weight": 0
+ },
+ "11": {
+  "tid": "11",
+  "vid": "3",
+  "name": "Members only",
+  "description": "",
+  "vocabulary": "Member content",
+  "parent": "0",
+  "weight": 0
+ },
+ "12": {
+  "tid": "12",
+  "vid": "4",
+  "name": "Burnout Paradise",
+  "description": "",
+  "vocabulary": "Game",
+  "parent": "0",
+  "weight": 0
+ },
+ "13": {
+  "tid": "13",
+  "vid": "4",
+  "name": "Burnout Dominator",
+  "description": "",
+  "vocabulary": "Game",
+  "parent": "0",
+  "weight": 1
+ },
+ "14": {
+  "tid": "14",
+  "vid": "4",
+  "name": "Burnout Legends",
+  "description": "",
+  "vocabulary": "Game",
+  "parent": "0",
+  "weight": 2
+ },
+ "15": {
+  "tid": "15",
+  "vid": "4",
+  "name": "Burnout Revenge",
+  "description": "",
+  "vocabulary": "Game",
+  "parent": "0",
+  "weight": 3
+ },
+ "16": {
+  "tid": "16",
+  "vid": "4",
+  "name": "Burnout 3: Takedown",
+  "description": "",
+  "vocabulary": "Game",
+  "parent": "0",
+  "weight": 4
+ },
+ "17": {
+  "tid": "17",
+  "vid": "4",
+  "name": "Burnout 2: Point of Impact",
+  "description": "",
+  "vocabulary": "Game",
+  "parent": "0",
+  "weight": 5
+ },
+ "18": {
+  "tid": "18",
+  "vid": "4",
+  "name": "Burnout",
+  "description": "",
+  "vocabulary": "Game",
+  "parent": "0",
+  "weight": 6
+ },
+ "19": {
+  "tid": "19",
+  "vid": "2",
+  "name": "Featured article",
+  "description": "",
+  "vocabulary": "BurnoutAholics",
+  "parent": "0",
+  "weight": 0
+ },
+ "20": {
+  "tid": "20",
+  "vid": "4",
+  "name": "General",
+  "description": "General information about Burnout",
+  "vocabulary": "Game",
+  "parent": "0",
+  "weight": 0
+ },
+ "21": {
+  "tid": "21",
+  "vid": "5",
+  "name": "BurnoutAholics Forums",
+  "description": "BurnoutAholics have voted for a Forum. So, here it is!<br/><br/> \r\nThe forum is embedded in the BurnoutAholics site, so you do not need a different user name or login password. When you log in to BurnoutAholics you are also logging into the Forum.<br/><br/> \r\nThis Forum will be moderated. The <a href=\"/node/92\" target=\"top\">Terms of Use</a> apply to the forum as do the following Rules that I learnt from my Mum.<br/><br/> \r\n\"Treat other people as you expect to be treated yourself\" and \"If you dont have anything nice to say, dont say anything at all\"<br/><br/> \r\nHowever these Rules from my Mum should be broken.<br/><br/> \r\n\"Do not speak unless spoken too\" and \"Be seen and not heard\"<br/><br/> \r\nThe only other thing to bear in mind is that BurnoutAholics.com should be a Utopia for Burners so, <i>Be Excellent to Each other and Party on Dudes!</i><br/><br/>ZombieTron",
+  "vocabulary": "Forums",
+  "parent": "0",
+  "weight": 0
+ },
+ "22": {
+  "tid": "22",
+  "vid": "5",
+  "name": "BurnoutAholics Feed Your Addiction!",
+  "description": "Post about anything related to Burnout.",
+  "vocabulary": "Forums",
+  "parent": "21",
+  "weight": 0
+ },
+ "23": {
+  "tid": "23",
+  "vid": "5",
+  "name": "Life, the Universe and Everything except Burnout!",
+  "description": "Post about anything not related to Burnout.",
+  "vocabulary": "Forums",
+  "parent": "21",
+  "weight": 4
+ },
+ "24": {
+  "tid": "24",
+  "vid": "2",
+  "name": "Tournament",
+  "description": "BurnoutAholics tournament",
+  "vocabulary": "BurnoutAholics",
+  "parent": "0",
+  "weight": 0
+ },
+ "25": {
+  "tid": "25",
+  "vid": "6",
+  "name": "E Crawford Dr",
+  "description": "",
+  "vocabulary": "Burnout Paradise Street",
+  "parent": "0",
+  "weight": 0
+ },
+ "26": {
+  "tid": "26",
+  "vid": "7",
+  "name": "Super Jump",
+  "description": "",
+  "vocabulary": "Burnout Paradise Game Guide",
+  "parent": "0",
+  "weight": 0
+ },
+ "27": {
+  "tid": "27",
+  "vid": "7",
+  "name": "Billboard",
+  "description": "",
+  "vocabulary": "Burnout Paradise Game Guide",
+  "parent": "0",
+  "weight": 1
+ },
+ "28": {
+  "tid": "28",
+  "vid": "7",
+  "name": "Smash",
+  "description": "",
+  "vocabulary": "Burnout Paradise Game Guide",
+  "parent": "0",
+  "weight": 2
+ },
+ "29": {
+  "tid": "29",
+  "vid": "6",
+  "name": "Lambert Parkway",
+  "description": "",
+  "vocabulary": "Burnout Paradise Street",
+  "parent": "0",
+  "weight": 0
+ },
+ "30": {
+  "tid": "30",
+  "vid": "6",
+  "name": "I-88",
+  "description": "",
+  "vocabulary": "Burnout Paradise Street",
+  "parent": "0",
+  "weight": 0
+ },
+ "31": {
+  "tid": "31",
+  "vid": "6",
+  "name": "Train Yard",
+  "description": "",
+  "vocabulary": "Burnout Paradise Street",
+  "parent": "0",
+  "weight": 0
+ },
+ "32": {
+  "tid": "32",
+  "vid": "6",
+  "name": "Webster Ave Parking Garage",
+  "description": "",
+  "vocabulary": "Burnout Paradise Street",
+  "parent": "0",
+  "weight": 0
+ },
+ "33": {
+  "tid": "33",
+  "vid": "6",
+  "name": "Webster Ave",
+  "description": "",
+  "vocabulary": "Burnout Paradise Street",
+  "parent": "0",
+  "weight": 0
+ },
+ "34": {
+  "tid": "34",
+  "vid": "4",
+  "name": "BurnoutAholics FAQ",
+  "description": "Most frequently asked questions and answers about BurnoutAholics.com",
+  "vocabulary": "Game",
+  "parent": "0",
+  "weight": 0
+ },
+ "35": {
+  "tid": "35",
+  "vid": "8",
+  "name": "GCA 08",
+  "description": "Gaming Convention Asia 2008",
+  "vocabulary": "Event",
+  "parent": "0",
+  "weight": 0
+ },
+ "36": {
+  "tid": "36",
+  "vid": "4",
+  "name": "Burnout CRASH",
+  "description": "Burnout CRASH",
+  "vocabulary": "Game",
+  "parent": "0",
+  "weight": -1
+ },
+ "38": {
+  "tid": "38",
+  "vid": "5",
+  "name": "Driver: San Francisco",
+  "description": "Discuss all things Driver here.",
+  "vocabulary": "Forums",
+  "parent": "21",
+  "weight": 2
+ },
+ "39": {
+  "tid": "39",
+  "vid": "5",
+  "name": "Peggle Aholics",
+  "description": "We Love Peggle! And aren't afraid to talk about it.",
+  "vocabulary": "Forums",
+  "parent": "21",
+  "weight": 3
+ },
+ "40": {
+  "tid": "40",
+  "vid": "5",
+  "name": "Burnout CRASH!",
+  "description": "Discuss all things CRASH! here.",
+  "vocabulary": "Forums",
+  "parent": "21",
+  "weight": 1
+ },
+ "41": {
+  "tid": "41",
+  "vid": "9",
+  "name": "Burnout Paradise",
+  "description": "",
+  "vocabulary": "Tags",
+  "parent": "0",
+  "weight": 0
+ },
+ "42": {
+  "tid": "42",
+  "vid": "9",
+  "name": "Burnout Revenge",
+  "description": "",
+  "vocabulary": "Tags",
+  "parent": "0",
+  "weight": 0
+ },
+ "43": {
+  "tid": "43",
+  "vid": "9",
+  "name": "Burnout 3: Takedown",
+  "description": "",
+  "vocabulary": "Tags",
+  "parent": "0",
+  "weight": 0
+ },
+ "44": {
+  "tid": "44",
+  "vid": "9",
+  "name": "Burnout Dominator",
+  "description": "",
+  "vocabulary": "Tags",
+  "parent": "0",
+  "weight": 0
+ },
+ "45": {
+  "tid": "45",
+  "vid": "9",
+  "name": "Burnout",
+  "description": "",
+  "vocabulary": "Tags",
+  "parent": "0",
+  "weight": 0
+ },
+ "46": {
+  "tid": "46",
+  "vid": "9",
+  "name": "Burnout Crash!",
+  "description": "",
+  "vocabulary": "Tags",
+  "parent": "0",
+  "weight": 0
+ },
+ "47": {
+  "tid": "47",
+  "vid": "9",
+  "name": "Burnout 2: Point of Impact",
+  "description": "",
+  "vocabulary": "Tags",
+  "parent": "0",
+  "weight": 0
+ },
+ "48": {
+  "tid": "48",
+  "vid": "9",
+  "name": "BurnoutAholics.com",
+  "description": "",
+  "vocabulary": "Tags",
+  "parent": "0",
+  "weight": 0
+ },
+ "49": {
+  "tid": "49",
+  "vid": "7",
+  "name": "sports|gambling|entertainment|casino gambling|arts and entertainment|gaming|internet|computer games|computers|business",
+  "description": "",
+  "vocabulary": "Burnout Paradise Game Guide",
+  "parent": "0",
+  "weight": 0
+ },
+ "50": {
+  "tid": "50",
+  "vid": "7",
+  "name": "fashion style|shopping|shopping and product reviews|sports|relationships|fashion|advertising|advice|sales|business|product reviews|wellness|health|marriage|womens interests|business ideas|arts & entertainment|clothing",
+  "description": "",
+  "vocabulary": "Burnout Paradise Game Guide",
+  "parent": "0",
+  "weight": 0
+ },
+ "51": {
+  "tid": "51",
+  "vid": "7",
+  "name": "anonymous|uncategorized|misc|general|other",
+  "description": "",
+  "vocabulary": "Burnout Paradise Game Guide",
+  "parent": "0",
+  "weight": 0
+ },
+ "52": {
+  "tid": "52",
+  "vid": "7",
+  "name": "Computers::Games",
+  "description": "",
+  "vocabulary": "Burnout Paradise Game Guide",
+  "parent": "0",
+  "weight": 0
+ },
+ "53": {
+  "tid": "53",
+  "vid": "7",
+  "name": "Business::Careers|Business::Home Based Business|Business::Small Business|Communications::Video Conferencing|Computers::Computer Certification|Computers::Games",
+  "description": "",
+  "vocabulary": "Burnout Paradise Game Guide",
+  "parent": "0",
+  "weight": 0
+ },
+ "54": {
+  "tid": "54",
+  "vid": "7",
+  "name": "travel and leisure|business|home improvement|local|travel|appliances",
+  "description": "",
+  "vocabulary": "Burnout Paradise Game Guide",
+  "parent": "0",
+  "weight": 0
+ },
+ "55": {
+  "tid": "55",
+  "vid": "5",
+  "name": "Dangerous Driving",
+  "description": "",
+  "vocabulary": "Forums",
+  "parent": "21",
+  "weight": 9
+ }
+}

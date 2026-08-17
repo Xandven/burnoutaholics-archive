@@ -1,0 +1,79 @@
+[
+ {
+  "cid": "5143",
+  "pid": "5011",
+  "thread": "01.00.00.00/",
+  "subject": "Strange",
+  "author": "MutatedZombieRat",
+  "uid": "1087",
+  "avatar": "/files/pictures/picture-1087.gif",
+  "created": "2009-02-15T23:34:38+00:00",
+  "body": "<p>That's odd. I downloaded the Party Pack the day it was released and I've had no problems with my stats. They all show up the same.  What platform do you own the game on? I have it on PS3 and had no problems. It's possible that it's specific to the 360 or PC.</p>\n"
+ },
+ {
+  "cid": "5178",
+  "pid": "5011",
+  "thread": "01.00.00.01/",
+  "subject": "takedowns",
+  "author": "abnomaly",
+  "uid": "1009",
+  "avatar": null,
+  "created": "2009-02-19T16:16:54+00:00",
+  "body": "<p>never worked in game dev no desire to either..</p>\n<p> </p>\n<p>but i know this.. </p>\n<p> </p>\n<p>if you release a game or update it would be nice to have some way for reporting bugs with a human there to hellp you after.. not just autoreply saying report it at this site blah blah blah.,.. then ignoring the crap outa ya..</p>\n<p> </p>\n"
+ },
+ {
+  "cid": "5011",
+  "pid": "5005",
+  "thread": "01.00.00/",
+  "subject": "Not tested?",
+  "author": "Khanon",
+  "uid": "1072",
+  "avatar": "/files/pictures/picture-1072.jpg",
+  "created": "2009-02-08T18:07:35+00:00",
+  "body": "<p>Interestingly, you can test something until you're blue in the face with no problems, but once you make it live, all sorts of weirdness pops up. Welcome to the Computer Age! 🙂</p>\n<p>If you've ever worked in game dev (I have), you know there's no amount of testing, not even years worth, that'll make something bug-free...not when you're talking about computers and gaming. Going all the way back to Atari 2600's, C= VIC-20's, etc... Well...okay...I never had a Pong game glitch on me before the whole console went bad... *sighs and shudders* Okay...those were scary days, back then.</p>\n<p> </p>\n<p><i>No more games, no more teasing. Time to play...time to die. --Pinhead</i></p>\n"
+ },
+ {
+  "cid": "5005",
+  "pid": "5001",
+  "thread": "01.00/",
+  "subject": "takedowns",
+  "author": "abnomaly",
+  "uid": "1009",
+  "avatar": null,
+  "created": "2009-02-08T14:37:53+00:00",
+  "body": "<p>tried the mailbag at criterion got auto response sending me to bugzilla which is no help as v1.6 is not on there to report bugs on yet...</p>\n<p> </p>\n<p>and it is to do with the party as those not affected dont have party unlocked yet...</p>\n<p> </p>\n<p>thanks .. i will try bugzilla later see if its been added..</p>\n<p>i think they should have tested it first tho..</p>\n"
+ },
+ {
+  "cid": "5001",
+  "pid": "0",
+  "thread": "01/",
+  "subject": "Reset Takedowns",
+  "author": "ZombieTron",
+  "uid": "2",
+  "avatar": "/files/pictures/picture-2.jpg",
+  "created": "2009-02-08T11:14:08+00:00",
+  "body": "<p>I have seen quite a few people mention this on various Burnout forums.</p>\n<p>I think this must be related to having the Party Pack, as I have not got it yet and my Takedowns are still showing as 2,285.</p>\n<p>I would advise you to email Criterion Games at <a href=\"mailto:mailbag@criteriongames.com\">mailbag@criteriongames.com</a> or to use the <a target=\"_blank\" href=\"http://www.criteriongames.com/bugzilla/\">Bugzilla</a> as it seems like a bug to me.</p>\n"
+ },
+ {
+  "cid": "5171",
+  "pid": "0",
+  "thread": "02/",
+  "subject": "There are problems with v1.60",
+  "author": "C_2g",
+  "uid": "1122",
+  "avatar": null,
+  "created": "2009-02-19T11:39:07+00:00",
+  "body": "<p>I have filed a bug report with criteriongames/bugzilla. The bug that I discovered is that when the v1.60 update was released, I downloaded it on both of my ps3 systems. And it did not like the friends list data on either of my machines. I have backed up and formatted the hard drive in my ps3. I have deleted my entire friends list, downloaded and reinstalled all of the updates (4 of them) to v1.60.  And it still crashes my ps3 if I am in an online game of burnout or when it connects with the Paradise City servers. Specifically when I send a request to add a friend, when they accept the system freezes, permanently during online game play. My bug report is #219. Check it out.</p>\n"
+ },
+ {
+  "cid": "5181",
+  "pid": "0",
+  "thread": "03/",
+  "subject": "Looks like they acknowledged the problem",
+  "author": "Abernyte",
+  "uid": "953",
+  "avatar": "/files/pictures/picture-953.jpg",
+  "created": "2009-02-19T18:51:19+00:00",
+  "body": "<p>The following is from the CG news page:</p>\n<p>-------------------------------------------------------------------------</p>\n<p>Many, many thanks to one of our Twitter followers who has helped to identify a problem that we have with our online stats servers.</p>\n<div>\n<div>With the release of Burnout Paradise Party, we migrated all online players to a new account log-in system. Invisibly all existing player data was migrated across to new servers and systems. However...</div>\n<p>\n</p><div>It seems that after you migrated if you happened to complete a race, then a problem occured resetting your stats to zero and starting again. With a lot of our players having many hours invested, we needed to find out what the problem was and fix it. </div>\n<p>\n</p><div>We're now fixing it, you may lose a tiny amount of data, but we'll make sure that we keep that to a minimum, thanks again!</div>\n<p>-------------------------------------------------------------------------<br /> </p>\n<p>We'll see just what \"tiny amount of data\" actually is but hopefully this will eventually restore most people's stats.</p>\n<p>  </p>\n</div>\n<p> </p>\n"
+ }
+]

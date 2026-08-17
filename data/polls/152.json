@@ -1,0 +1,33 @@
+{
+ "nid": "152",
+ "title": "What was the working title for Burnout Revenge?",
+ "active": "1",
+ "total_votes": 35,
+ "choices": [
+  {
+   "text": "Burnout Domination",
+   "votes": 5,
+   "weight": 0
+  },
+  {
+   "text": "Burnout Paradise",
+   "votes": 4,
+   "weight": 1
+  },
+  {
+   "text": "Burnout Rush Hour",
+   "votes": 10,
+   "weight": 2
+  },
+  {
+   "text": "Burnout 4",
+   "votes": 12,
+   "weight": 3
+  },
+  {
+   "text": "Burnout Grid Lock",
+   "votes": 4,
+   "weight": 4
+  }
+ ]
+}

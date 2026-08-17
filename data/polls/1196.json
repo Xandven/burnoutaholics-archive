@@ -1,0 +1,23 @@
+{
+ "nid": "1196",
+ "title": "Are you using the Male or Female Rider in the Bike Pack?",
+ "active": "1",
+ "total_votes": 201,
+ "choices": [
+  {
+   "text": "Male",
+   "votes": 134,
+   "weight": 0
+  },
+  {
+   "text": "Female",
+   "votes": 53,
+   "weight": 1
+  },
+  {
+   "text": "I haven't used the Bike Pack",
+   "votes": 14,
+   "weight": 2
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "nid": "1894",
+ "title": "When did you last play Burnout Paradise?",
+ "active": "1",
+ "total_votes": 303,
+ "choices": [
+  {
+   "text": "I play every day",
+   "votes": 191,
+   "weight": 0
+  },
+  {
+   "text": "last week",
+   "votes": 35,
+   "weight": 1
+  },
+  {
+   "text": "a few weeks ago",
+   "votes": 9,
+   "weight": 2
+  },
+  {
+   "text": "last month",
+   "votes": 4,
+   "weight": 3
+  },
+  {
+   "text": "a few months ago",
+   "votes": 12,
+   "weight": 4
+  },
+  {
+   "text": "last year",
+   "votes": 10,
+   "weight": 5
+  },
+  {
+   "text": "I can't remember!",
+   "votes": 17,
+   "weight": 6
+  },
+  {
+   "text": "I have never played Burnout Paradise",
+   "votes": 25,
+   "weight": 7
+  }
+ ]
+}

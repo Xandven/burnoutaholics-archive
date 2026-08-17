@@ -1,0 +1,23 @@
+{
+ "nid": "568",
+ "title": "Do you like the Paradise Demo?",
+ "active": "1",
+ "total_votes": 72,
+ "choices": [
+  {
+   "text": "Yes",
+   "votes": 49,
+   "weight": 0
+  },
+  {
+   "text": "No",
+   "votes": 13,
+   "weight": 1
+  },
+  {
+   "text": "Not Sure",
+   "votes": 10,
+   "weight": 2
+  }
+ ]
+}

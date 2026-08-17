@@ -1,0 +1,18 @@
+{
+ "nid": "431",
+ "title": "Can you wait til 22 January 2008?",
+ "active": "0",
+ "total_votes": 26,
+ "choices": [
+  {
+   "text": "No Way! I Need Paradise NOW!",
+   "votes": 15,
+   "weight": 0
+  },
+  {
+   "text": "Yes, Revenge will keep me happy!",
+   "votes": 11,
+   "weight": 1
+  }
+ ]
+}

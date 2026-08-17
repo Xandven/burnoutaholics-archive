@@ -1,0 +1,38 @@
+{
+ "nid": "1155",
+ "title": "How would you rate the Bike Pack from 1 to 5",
+ "active": "0",
+ "total_votes": 352,
+ "choices": [
+  {
+   "text": "5 - Excellent!",
+   "votes": 120,
+   "weight": 0
+  },
+  {
+   "text": "4 - Very good",
+   "votes": 121,
+   "weight": 1
+  },
+  {
+   "text": "3 - Good",
+   "votes": 64,
+   "weight": 2
+  },
+  {
+   "text": "2 - Poor",
+   "votes": 10,
+   "weight": 3
+  },
+  {
+   "text": "1 - Rubbish!",
+   "votes": 16,
+   "weight": 4
+  },
+  {
+   "text": "Have not tried it.",
+   "votes": 21,
+   "weight": 5
+  }
+ ]
+}

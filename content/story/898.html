@@ -1,0 +1,20 @@
+---
+title: "Best Flat Spin"
+nid: 898
+type: "story"
+url: /node/898
+date: 2008-03-27T17:43:41+00:00
+lastmod: 2011-06-02T07:50:26+00:00
+author: "Xandu"
+draft: false
+promote: false
+sticky: false
+weight: 0
+summary: "Here is the list of the 50 best flat spins performed by members of BurnoutAholics.comBest Flat Spins\";  $i = 1;  $rank = 0;   $preValue = 0;  $result = db_query(\"SELECT Cast(a.value as signed) as value2, b.value as verified, a.uid FROM {profile_values} a LEFT JOIN {profile_values} b ON (a.UID = b.uid AND b.fid = 49)  WHERE a.fid = 42 AND a.value != '' AND (b.value != 'No' OR b.value is NULL) ORDER BY value2 DESC LIMIT 0, 50\");    echo \"    Rank  Name  Flat Spin  Verified  \";while($row = mysql_fetch_array($result))    {      $profile = user_load(array('uid' => $row['uid']));    if($prevalue != $row['value2'])   $rank = $i;    $prevalue = $row['value2'];    if($rank==1)   echo \"\";    else     echo \"\";    echo \"\" . $rank . \"\";    echo \"\" . $profile->name . \"\";    echo \"\" . $row['value2'] . \"\";    echo \"\" . $row['verified'] . \"\";    echo \"\";    $i = $i + 1;    }  echo \"\";  ?>"
+views: 16443
+comment_count: 50
+needs_crawl: true
+---
+<p>Here is the list of the 50 best flat spins performed by members of BurnoutAholics.com</p>
+<p>
+</p>

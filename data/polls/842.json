@@ -1,0 +1,23 @@
+{
+ "nid": "842",
+ "title": "Which Road Rules?",
+ "active": "1",
+ "total_votes": 128,
+ "choices": [
+  {
+   "text": "Time",
+   "votes": 61,
+   "weight": 0
+  },
+  {
+   "text": "Show Time",
+   "votes": 47,
+   "weight": 1
+  },
+  {
+   "text": "No Preference",
+   "votes": 20,
+   "weight": 2
+  }
+ ]
+}

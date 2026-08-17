@@ -1,0 +1,35 @@
+[
+ {
+  "cid": "8016",
+  "pid": "8014",
+  "thread": "01.00.00/",
+  "subject": "Spam control",
+  "author": "ZombieTron",
+  "uid": "2",
+  "avatar": "/files/pictures/picture-2.jpg",
+  "created": "2018-09-19T11:22:00+00:00",
+  "body": "<p>I have now limited what users can post. This will effect our genuine members as well as the spammers.</p>\n<p>However, we mostly want this to be a read only resource.</p>\n<p>We will accept submissions of content, so if you want to write a genuine article relating to Burnout or the work of Three Fields Entertainment, please get in touch.</p>\n<p>I'm @ZombieTron on Twitter:)</p>\n"
+ },
+ {
+  "cid": "8014",
+  "pid": "7954",
+  "thread": "01.00/",
+  "subject": "You might need to work on the spam blocker!",
+  "author": "ZombieTron",
+  "uid": "2",
+  "avatar": "/files/pictures/picture-2.jpg",
+  "created": "2018-09-19T10:50:54+00:00",
+  "body": "<p>But I can do it manually in the meantime! :)</p>\n"
+ },
+ {
+  "cid": "7954",
+  "pid": "0",
+  "thread": "01/",
+  "subject": "The site is back but it is",
+  "author": "Xandu",
+  "uid": "1",
+  "avatar": "/files/pictures/picture-1.jpg",
+  "created": "2018-09-18T21:35:00+00:00",
+  "body": "<p>The site is back but it is not entirely healthy. Most of the content is here but lots of features had to be disabled. Also you might have noticed the funky new look... that I might fix if I get the time to do it.</p>\n"
+ }
+]

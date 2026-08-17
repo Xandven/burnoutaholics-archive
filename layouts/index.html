@@ -1,0 +1,40 @@
+{{ define "main" }}
+{{/* Drupal's front page lists nodes with promote=1, sticky ones first, then
+     newest first, 10 per page — reproduced here from the promote/sticky flags
+     carried in frontmatter. */}}
+{{ $promoted := where (where .Site.RegularPages "Params.promote" true) "Params.draft" "!=" true }}
+{{ $sorted := sort (sort $promoted "Date" "desc") "Params.sticky" "desc" }}
+{{ $paged := .Paginate $sorted }}
+
+{{ range $paged.Pages }}
+<div class="node node-{{ .Params.type }}{{ if .Params.sticky }} node-sticky{{ end }} node-teaser clearfix">
+  <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+  <div class="meta submitted">
+    <span class="submitted">
+      Submitted by <span class="username">{{ .Params.author }}</span>
+      {{ with .Date }}on {{ .Format "Mon, 01/02/2006 - 15:04" }}{{ end }}
+    </span>
+  </div>
+  {{ with .Params.terms }}
+  <div class="field field-name-field-tags field-label-hidden">
+    <ul class="links">
+      {{ range . }}<li class="taxonomy-term-reference-0"><a href="/taxonomy/term/{{ .tid }}">{{ .name }}</a></li>{{ end }}
+    </ul>
+  </div>
+  {{ end }}
+  <div class="content clearfix">
+    {{ with .Params.summary }}<p>{{ . }}</p>{{ else }}{{ .Summary }}{{ end }}
+  </div>
+  <ul class="links inline clearfix">
+    <li class="node-readmore first"><a href="{{ .RelPermalink }}">Read more</a></li>
+    {{ with .Params.comment_count }}{{ if gt . 0 }}
+    <li class="comment-comments last">
+      <a href="{{ $.RelPermalink }}#comments">{{ . }} comment{{ if ne . 1 }}s{{ end }}</a>
+    </li>
+    {{ end }}{{ end }}
+  </ul>
+</div>
+{{ end }}
+
+{{ template "_internal/pagination.html" . }}
+{{ end }}

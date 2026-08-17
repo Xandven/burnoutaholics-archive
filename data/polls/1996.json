@@ -1,0 +1,23 @@
+{
+ "nid": "1996",
+ "title": "What do you think about the new look?",
+ "active": "1",
+ "total_votes": 16,
+ "choices": [
+  {
+   "text": "AWESOME!",
+   "votes": 12,
+   "weight": 0
+  },
+  {
+   "text": "Looked better before",
+   "votes": 1,
+   "weight": 1
+  },
+  {
+   "text": "Doesn't make a difference to me",
+   "votes": 3,
+   "weight": 2
+  }
+ ]
+}

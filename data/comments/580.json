@@ -1,0 +1,35 @@
+[
+ {
+  "cid": "1988",
+  "pid": "1984",
+  "thread": "01.00.00/",
+  "subject": "Link Fixed",
+  "author": "vIp3rSw3d",
+  "uid": "253",
+  "avatar": "/files/pictures/picture-253.jpg",
+  "created": "2008-01-27T21:54:40+00:00",
+  "body": "<p>No problem at all.</p>\n<p>Burnt Out In Paradise</p>\n"
+ },
+ {
+  "cid": "1984",
+  "pid": "1983",
+  "thread": "01.00/",
+  "subject": "Link Fixed and FAQ updated",
+  "author": "ZombieTron",
+  "uid": "2",
+  "avatar": "/files/pictures/picture-2.jpg",
+  "created": "2008-01-27T09:31:44+00:00",
+  "body": "<p>Thanks for pointing it out, I have now fixed the link! If anyone finds any errors on the page please let us know so we can fix it!</p>\n<p>The FAQ has now been updated to include new information.</p>\n<p>--- The Original and the Best ---</p>\n"
+ },
+ {
+  "cid": "1983",
+  "pid": "0",
+  "thread": "01/",
+  "subject": "wrong link??",
+  "author": "vIp3rSw3d",
+  "uid": "253",
+  "avatar": "/files/pictures/picture-253.jpg",
+  "created": "2008-01-27T01:31:41+00:00",
+  "body": "<p>when i clicked on the link for <a href=\"/node/580\" target=\"_blank\"><em><font color=\"#666767\">power parking FAQ</font></em></a> it brought me to this one about flatspins. not complaining just wanted to let the creator know.</p>\n<p>Burnt Out In Canada</p>\n"
+ }
+]

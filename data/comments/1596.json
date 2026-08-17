@@ -1,0 +1,35 @@
+[
+ {
+  "cid": "5645",
+  "pid": "5644",
+  "thread": "01.00/",
+  "subject": "Steven Hawkens",
+  "author": "theelliyworkshop",
+  "uid": "1093",
+  "avatar": null,
+  "created": "2009-04-28T16:54:46+00:00",
+  "body": "<p>thank you Steven Hawkens in disguise,</p>\n<p>i will pretend i know what that means,</p>\n<p><strong>Eighteen quintillion <br />four hundred and fourty six quadrillion <br />seven hundred and fourty four trillion<br />seventy two billion<br />eight hundred and nighty five million<br />two hundred and fourthy eight thousand<br />three hundred and eighty four.</strong></p>\n<p>sounds good</p>\n<p>thank you</p>\n"
+ },
+ {
+  "cid": "5644",
+  "pid": "0",
+  "thread": "01/",
+  "subject": "Big number",
+  "author": "Xandu",
+  "uid": "1",
+  "avatar": "/files/pictures/picture-1.jpg",
+  "created": "2009-04-28T16:34:13+00:00",
+  "body": "<p>I think that would be pronunced:</p>\n<p><b>Eighteen quintillion <br />four hundred and fourty six quadrillion <br />seven hundred and fourty four trillion<br />seventy two billion<br />eight hundred and nighty five million<br />two hundred and fourthy eight thousand<br />three hundred and eighty four</b></p>\n<p>(split on multiple lines for readability)</p>\n<p>Seems like there must have been some kind of overflow when it shows the number in your stats. The obvious answer would be that they are trying to format a unsigned 32 bit integer as a signed 32 bit integer but I have trouble to see how that could make the big number you get. 🤓</p>\n<p>-- The Creator --</p>\n"
+ },
+ {
+  "cid": "5648",
+  "pid": "0",
+  "thread": "02/",
+  "subject": "Because you did it with a",
+  "author": "Glesga Maestro",
+  "uid": "1219",
+  "avatar": null,
+  "created": "2009-04-29T08:29:02+00:00",
+  "body": "<p>Because you did it with a speed car with a burnout chain. It has problems registering it that way.</p>\n"
+ }
+]

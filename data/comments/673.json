@@ -1,0 +1,46 @@
+[
+ {
+  "cid": "1853",
+  "pid": "1852",
+  "thread": "01.00.00/",
+  "subject": "Signing in... do you want a cookie?",
+  "author": "Xandu",
+  "uid": "1",
+  "avatar": "/files/pictures/picture-1.jpg",
+  "created": "2008-01-17T07:27:22+00:00",
+  "body": "<p>If you have had the problem for more than the last three days it is probably because of security settings in Internet Explorer. BurnoutAholics.com like many other web sites uses a cookie to store a session id. If we are not allowed to store this on your computer because of security settings in Internet Explorer you will have to sign in every time you enter the site.</p>\n<p>To fix this goto Tools-&gt;Internet Options on the file menu. Then goto the Privacy tab and click on sites. In the dialog that then appears (\"Per site privacy actions\") there is a list of web sites. See if you can find burnoutaholics.com in the list. If it is there it should be set to Always allow (cookies), If it is not in the list add burnoutaholics,com and click allow. Hopefully that will solve the problem.</p>\n<p>-- The Creator --</p>\n"
+ },
+ {
+  "cid": "1852",
+  "pid": "1845",
+  "thread": "01.00/",
+  "subject": "re not me",
+  "author": "BootlegGiant",
+  "uid": "69",
+  "avatar": "/files/pictures/picture-69.jpg",
+  "created": "2008-01-17T06:36:04+00:00",
+  "body": "<p>I have no problems whatever with this great site, oh ichi do enjoy the erm game invites dude as I know I will enjoy sending them to you while you are playing Revenge loooooser, Mud sticks dude so yeah but saying that nothing beats the  Easyrider incident, I bet you thought you were cool, I bet you thought other people thought you were the uber one, dude they were laughing!</p>\n<p>I do have one problemo with this site in that I have to sign in every time I visit which is not that much of a problem just a little bit (whats the word) inconvinient (no idea how to spell that one)</p>\n<p>to be continued.........</p>\n"
+ },
+ {
+  "cid": "1845",
+  "pid": "0",
+  "thread": "01/",
+  "subject": "Yes me too....!",
+  "author": "ichienkai",
+  "uid": "72",
+  "avatar": "/files/pictures/picture-72.jpg",
+  "created": "2008-01-16T18:34:40+00:00",
+  "body": "<p>Logged on earlier and i'm like wtf?  But saw Xandu was on so guessed the same site update business.  Completely different note, i raced with a newish member last night Zombie2nite and a friend of his BongBing, cool guys good races turned the tables on me for my rank haha nice one! Wasnt this tag though - was thinking a little about paradise too just now like the people who pre-ordered it will be most likely be playing the day before everyone else if they are lucky.... damn you Play.com. Anybody sends me a game invite and i will delete you off my friends list (for about 5minutes?) Reminds me of the cod4 and halo 3 beta testers who did it for days on end. :-(  Guys.... its not funny and you know who you are so be warned 5 minutes deletion then i'll ask you to be my friend again:  thats really gay actually - which reminds me finally Bootleg stop going on about the gay bar ok it was ages ago dude!</p>\n<p> --Bootleg is a window lickin' stalker--</p>\n"
+ },
+ {
+  "cid": "1846",
+  "pid": "0",
+  "thread": "02/",
+  "subject": "Problem with caching and access",
+  "author": "Xandu",
+  "uid": "1",
+  "avatar": "/files/pictures/picture-1.jpg",
+  "created": "2008-01-16T22:05:40+00:00",
+  "body": "<p>This has now been resolved.</p>\n<p>I think the problem started yesterday. I've now cleared the cache and made sure that all content is available.</p>\n<p>-- The Creator --</p>\n"
+ }
+]

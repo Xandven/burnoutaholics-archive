@@ -1,0 +1,22 @@
+---
+title: "So THAT'S how you fix the news!"
+nid: 1463
+type: "blog"
+url: /node/1463
+date: 2009-02-12T16:57:02+00:00
+lastmod: 2009-02-12T16:57:02+00:00
+author: "Khanon"
+draft: false
+promote: false
+sticky: false
+weight: 0
+views: 5319
+comment_count: 4
+---
+<p>Okay...for those that don't know, I've not been able to get the in-game news articles on my PC since I bought the game. Today, I finally got an answer from CG that it's "somewhere in your security settings, and we're closing this as resolved/fixed"...</p>
+<p><b><i>WTH?!?!</i></b><i> Thanks for the help, guys! *rolls eyes*</i></p>
+<p>So...down to me to figure it out, since no one is going to even give me an inkling of a clue as to what setting may need changing, and as anyone who's gone into their internet settings on their PC's knows...there's a metric &amp;$%#-ton of settings. I'm going to now make it easier on anyone else who has this same problem, so that they won't have to spend a week wondering what everyone else is talking about while they remain in the dark.</p>
+<p>In Internet Explorer 8 (and perhaps Firefox 3 which relies at least in part on IE's security settings under Vista and Windows 7) you have to go into Security Settings in Internet Options (either from Control Panel or from Tools&gt;&gt;Options within IE), click "Trusted Sites", uncheck the box at the bottom, go to Add Sites button on the Trusted Sites tab, uncheck the secure connection box at bottom, add in <a href="http://criteriongames.com/">http://criteriongames.com</a> and <a href="http://ea.com/">http://ea.com</a> (latter may not be necessary, but this is the only way to add non-secure pages to the trusted sites list), apply it, recheck the secure pages checkbox at the bottom, apply that, hit "Ok" and on the main Trusted Sites page, recheck the Enable<br />Protected Mode box, apply it, and the news should start working.</p>
+<p>I started at the front and started turning everything off, one at a time, until I found the way to make it work.</p>
+<p>It should be noted that the protected mode and medium level trust sites are enabled by default in Internet Explorer 8, so no one with default settings is going to be able to get the News unless the above is done to add CG and EA to the trusted site list. It should also be noted that you cannot add unsecure pages with the default settings..you first have to turn off protected mode and secure page settings. Don't forget to turn them back on again after you've added CG and EA to your list of trusted sites.</p>
+<p>If anyone would like, I'll be a little more exacting and technical with the terminology above, but I think that most people will probably be able to find exactly what's referred to here.</p>

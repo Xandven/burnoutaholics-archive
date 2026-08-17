@@ -1,0 +1,46 @@
+[
+ {
+  "cid": "4767",
+  "pid": "4766",
+  "thread": "01.00/",
+  "subject": "I'm Not Sure",
+  "author": "zerojay",
+  "uid": "782",
+  "avatar": null,
+  "created": "2009-01-22T21:02:02+00:00",
+  "body": "<p>All I can tell you are the status of various bugs that have been posted. If there's been a bug posted about that particular challenge, I could probably prompt a response from Simon, but no promises.</p>\n<p>As far as I know, there's nothing about those particular issues. Keep in mind though that they have their own internal bug tracker and their own sets of changes, so it's quite possible that a lot more than this will be fixed.</p>\n"
+ },
+ {
+  "cid": "4769",
+  "pid": "4768",
+  "thread": "01.01.00/",
+  "subject": "The Bugzilla",
+  "author": "ZombieTron",
+  "uid": "2",
+  "avatar": "/files/pictures/picture-2.jpg",
+  "created": "2009-01-23T08:43:37+00:00",
+  "body": "<p>If you want to report bugs in Burnout Paradise you can still use the Bugzilla, this is the link:</p>\n<p><a target=\"_blank\" href=\"http://www.criteriongames.com/bugzilla/\">http://www.criteriongames.com/bugzilla/</a></p>\n<p>I have also added this to our Links page.</p>\n<p>Thanks for the update ZeroJay! 🙂</p>\n<p> </p>\n"
+ },
+ {
+  "cid": "4768",
+  "pid": "4766",
+  "thread": "01.01/",
+  "subject": "flatspin scores resetting",
+  "author": "spin_dizzee",
+  "uid": "1036",
+  "avatar": null,
+  "created": "2009-01-23T03:35:41+00:00",
+  "body": "<p>For what it's worth, not just the 360 that resets the totals when you crash, have had that issue several times in ps3 games too. There is at least one other challenge too, think it's total jump distance, that resets if anyone crashes.</p>\n"
+ },
+ {
+  "cid": "4766",
+  "pid": "0",
+  "thread": "01/",
+  "subject": "do you know if...",
+  "author": "kevlar0",
+  "uid": "42",
+  "avatar": null,
+  "created": "2009-01-22T20:36:29+00:00",
+  "body": "<p>Any of the other bugs on the times challenges are up for being fixed?, there is a 6 player one \"turn back time\" which resets your flatspin score everytime you crash, i don't know if its local to the 360 or if its common to both consoles. and do you know if they are going to fix all the broken road rules, i still have 4 or 5 that done show a time i have put in.</p>\n<p>I have been on Bugzilla but i must be looking in the wrong place, or it maybe because i'm a dolt and haven't a clue what i'm doing.</p>\n<p>Cheers for the heads up on the bug fixes. </p>\n<p>He's not the messiah, he's a very naughty boy.</p>\n"
+ }
+]

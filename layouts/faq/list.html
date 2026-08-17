@@ -1,0 +1,77 @@
+{{ define "main" }}
+{{/* Frequently Asked Questions — a rebuild of Drupal's faq module page.
+
+     Reconstructed from the 2015 Wayback capture of /?q=faq: questions grouped by
+     category with a jump-list on top, then the answers inline below, anchored as
+     `t<tid>n<nid>`. Those anchor names are kept exactly so old deep links such as
+     /faq#t45n51 still land on the right answer.
+
+     Content comes from the 81 `faq` nodes themselves rather than a data file, so
+     the answers here are the same post-pipeline HTML served at /node/N. */}}
+
+{{ $faqs := where .Site.RegularPages "Params.type" "faq" }}
+
+{{/* One category term per FAQ node. Group by tid, then sort by name so the
+     order matches the original ("Burnout" before "Burnout 3: Takedown").
+     Keying the map by name would sort wrongly — any separator character used to
+     pack the tid into the key sorts after a space, pushing bare "Burnout" last. */}}
+{{ $groups := dict }}
+{{ range $faqs }}
+  {{ $t := index .Params.terms 0 }}
+  {{ if $t }}
+    {{ $k := printf "%v" $t.tid }}
+    {{ $g := index $groups $k | default (dict "name" $t.name "tid" $t.tid "pages" slice) }}
+    {{ $g = merge $g (dict "pages" ($g.pages | append .)) }}
+    {{ $groups = merge $groups (dict $k $g) }}
+  {{ end }}
+{{ end }}
+{{ $ordered := sort $groups "name" }}
+
+<h1 class="title" id="page-title">{{ .Title | default "Frequently Asked Questions" }}</h1>
+
+<div class="faq-content">
+  <div class="faq">
+    <div class="faq-description">
+      <p>Frequently Asked Questions about all the Burnout games.</p>
+    </div>
+
+    {{/* Jump-list: every category with its questions. */}}
+    {{ range $ordered }}
+      {{ $name := .name }}{{ $tid := .tid }}{{ $pages := .pages }}
+      <div class="faq-category-menu">
+        <div class="faq-qa-header">
+          <h5 class="faq-header">{{ $name }} ({{ len $pages }})</h5>
+        </div>
+        <div class="faq-qa">
+          <div class="item-list">
+            <ul class="faq-ul-questions-top">
+              {{ range sort $pages "Params.nid" }}
+              <li><a href="#t{{ $tid }}n{{ .Params.nid }}">{{ .Title }}</a></li>
+              {{ end }}
+            </ul>
+          </div>
+        </div>
+      </div>
+    {{ end }}
+
+    {{/* Answers, in the same category order. */}}
+    {{ range $ordered }}
+      {{ $name := .name }}{{ $tid := .tid }}{{ $pages := .pages }}
+      <div class="faq-category-group">
+        <h3 class="faq-category-title">{{ $name }}</h3>
+        {{ range sort $pages "Params.nid" }}
+        <div class="faq-question-answer" id="t{{ $tid }}n{{ .Params.nid }}">
+          <div class="faq-question">
+            <h4><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
+          </div>
+          <div class="faq-answer">{{ .Content }}</div>
+          <div class="faq-back-to-top">
+            <a href="#page-title">Back to top</a>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

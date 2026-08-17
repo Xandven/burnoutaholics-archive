@@ -1,0 +1,38 @@
+{
+ "nid": "3597",
+ "title": "What was your favourite US racing location in Burnout 3: Takedown?",
+ "active": "1",
+ "total_votes": 9,
+ "choices": [
+  {
+   "text": "Silver Lake",
+   "votes": 1,
+   "weight": 0
+  },
+  {
+   "text": "Waterfront",
+   "votes": 2,
+   "weight": 1
+  },
+  {
+   "text": "Downtown",
+   "votes": 1,
+   "weight": 2
+  },
+  {
+   "text": "Kings of the Road",
+   "votes": 2,
+   "weight": 3
+  },
+  {
+   "text": "Mountain  Parkway",
+   "votes": 2,
+   "weight": 4
+  },
+  {
+   "text": "Lakeside Getaway",
+   "votes": 1,
+   "weight": 5
+  }
+ ]
+}

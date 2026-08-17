@@ -1,0 +1,34 @@
+{{- /* Front-page feed, matching what Drupal served at /rss.xml.
+
+       Drupal's feed was the front page in RSS form: nodes promoted to the front
+       page, newest first, capped at 10 items. Hugo's built-in feed would emit
+       every page on the site instead — 2,472 items and 1.7 MB, which is not a
+       feed anyone can subscribe to.
+
+       Old subscribers still poll this URL, so it stays at /rss.xml (set by
+       outputFormats.RSS.baseName in hugo.toml). */ -}}
+{{- $promoted := where (where .Site.RegularPages "Params.promote" true) "Params.draft" "!=" true -}}
+{{- $items := first 10 (sort $promoted "Date" "desc") -}}
+{{- printf "<?xml version=\"1.0\" encoding=\"utf-8\"?>" | safeHTML }}
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ .Site.Title }}</title>
+    <link>{{ .Site.BaseURL }}</link>
+    <description>{{ .Site.Params.slogan | default "Burnout community archive" }}</description>
+    <language>en</language>
+    <atom:link href="{{ .Permalink }}" rel="self" type="application/rss+xml" />
+    {{- with $items }}{{ with index . 0 }}
+    <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>
+    {{- end }}{{ end }}
+    {{- range $items }}
+    <item>
+      <title>{{ .Title }}</title>
+      <link>{{ .Permalink }}</link>
+      <description>{{ with .Params.summary }}{{ . }}{{ else }}{{ .Summary | plainify }}{{ end }}</description>
+      <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+      <dc:creator>{{ .Params.author }}</dc:creator>
+      <guid isPermaLink="true">{{ .Permalink }}</guid>
+    </item>
+    {{- end }}
+  </channel>
+</rss>

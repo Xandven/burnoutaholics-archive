@@ -1,0 +1,33 @@
+{
+ "nid": "1598",
+ "title": "Cops and Robbers: Have you got it, do you like it?",
+ "active": "1",
+ "total_votes": 448,
+ "choices": [
+  {
+   "text": "Yes, I got it and it's great!",
+   "votes": 135,
+   "weight": 0
+  },
+  {
+   "text": "Yes, I got it, but I'm not sure..",
+   "votes": 52,
+   "weight": 1
+  },
+  {
+   "text": "Yes, I got it, but don't like it!",
+   "votes": 15,
+   "weight": 2
+  },
+  {
+   "text": "No, I haven't got it yet",
+   "votes": 189,
+   "weight": 3
+  },
+  {
+   "text": "I'm never going to get it",
+   "votes": 57,
+   "weight": 4
+  }
+ ]
+}

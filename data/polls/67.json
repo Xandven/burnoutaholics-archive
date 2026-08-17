@@ -1,0 +1,48 @@
+{
+ "nid": "67",
+ "title": "How many perfect laps have you had in Burnout Revenge? You find this information in your Driver Stats.",
+ "active": "1",
+ "total_votes": 28,
+ "choices": [
+  {
+   "text": "0-999",
+   "votes": 11,
+   "weight": 0
+  },
+  {
+   "text": "1000-2999",
+   "votes": 4,
+   "weight": 1
+  },
+  {
+   "text": "3000-4999",
+   "votes": 4,
+   "weight": 2
+  },
+  {
+   "text": "5000-7499",
+   "votes": 3,
+   "weight": 3
+  },
+  {
+   "text": "7500-9999",
+   "votes": 1,
+   "weight": 4
+  },
+  {
+   "text": "10000-12499",
+   "votes": 0,
+   "weight": 5
+  },
+  {
+   "text": "12500-14999",
+   "votes": 1,
+   "weight": 6
+  },
+  {
+   "text": "15000+",
+   "votes": 4,
+   "weight": 7
+  }
+ ]
+}

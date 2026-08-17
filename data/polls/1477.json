@@ -1,0 +1,33 @@
+{
+ "nid": "1477",
+ "title": "What is your favourite Legendary Car?",
+ "active": "1",
+ "total_votes": 471,
+ "choices": [
+  {
+   "text": "Jansen 88 Special",
+   "votes": 190,
+   "weight": 0
+  },
+  {
+   "text": "Hunter Manhattan Spirit",
+   "votes": 9,
+   "weight": 1
+  },
+  {
+   "text": "Carson GT Nighthawk",
+   "votes": 123,
+   "weight": 2
+  },
+  {
+   "text": "Hunter Cavalry Bootlegger",
+   "votes": 31,
+   "weight": 3
+  },
+  {
+   "text": "I haven't purchased the Legendary Cars",
+   "votes": 118,
+   "weight": 4
+  }
+ ]
+}

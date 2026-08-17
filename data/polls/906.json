@@ -1,0 +1,33 @@
+{
+ "nid": "906",
+ "title": "What Freeburn Game Mode are you looking forward to most?",
+ "active": "1",
+ "total_votes": 368,
+ "choices": [
+  {
+   "text": "Stunt Run",
+   "votes": 40,
+   "weight": 0
+  },
+  {
+   "text": "Marked Man",
+   "votes": 52,
+   "weight": 1
+  },
+  {
+   "text": "Road Rage",
+   "votes": 157,
+   "weight": 2
+  },
+  {
+   "text": "All of them",
+   "votes": 96,
+   "weight": 3
+  },
+  {
+   "text": "None of the above",
+   "votes": 23,
+   "weight": 4
+  }
+ ]
+}

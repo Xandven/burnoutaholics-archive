@@ -1,0 +1,79 @@
+[
+ {
+  "cid": "5563",
+  "pid": "5562",
+  "thread": "01.00.00/",
+  "subject": "Bugzilla",
+  "author": "Xandu",
+  "uid": "1",
+  "avatar": "/files/pictures/picture-1.jpg",
+  "created": "2009-04-15T17:32:16+00:00",
+  "body": "<p>I would recommend that you register this as a bug at: <a href=\"http://www.criteriongames.com/bugzilla/\">http://www.criteriongames.com/bugzilla/</a></p>\n<p>-- The Creator --</p>\n"
+ },
+ {
+  "cid": "5562",
+  "pid": "5561",
+  "thread": "01.00/",
+  "subject": "yeah i can login on ea and",
+  "author": "III MAGOO III",
+  "uid": "1266",
+  "avatar": null,
+  "created": "2009-04-15T17:14:58+00:00",
+  "body": "<p>yeah i can login on ea and criterion sites and i can play other ea games... burnout revenge NFS carbon, underground and stuff.</p>\n<p>i've been all over the internet looking, talking, calling, posting and can't find a solution.</p>\n<p>thought you guys might of heard of this before, thanks</p>\n"
+ },
+ {
+  "cid": "5561",
+  "pid": "0",
+  "thread": "01/",
+  "subject": "Online Persona",
+  "author": "Xandu",
+  "uid": "1",
+  "avatar": "/files/pictures/picture-1.jpg",
+  "created": "2009-04-15T17:08:52+00:00",
+  "body": "<p>I have heard that this my be related to not having Burnout Paradise 1.7, but you already have that so that cannot be the problem.</p>\n<p>Are you able to sign into <a href=\"http://www.criteriongames.com/login/login.php\">http://www.criteriongames.com/login/login.php</a>  ? You should use the email/password that is linked to your gamertag.</p>\n<p>-- The Creator --</p>\n"
+ },
+ {
+  "cid": "5572",
+  "pid": "0",
+  "thread": "02/",
+  "subject": " I have just started",
+  "author": "erkster",
+  "uid": "1271",
+  "avatar": null,
+  "created": "2009-04-17T18:55:50+00:00",
+  "body": "<p> I have just started playing this again, and after downloading all the packs (1.7 included) I am now greeted with this everytime I try to login with my username over live...</p>\n<p>Anyone had any resolve over this problem?</p>\n<p>I have changed the date, reset the 360 cache and deleted all content and redownloaded...still no resolve :(</p>\n<p>I contacted EA support, but have heard nothing back yet.</p>\n"
+ },
+ {
+  "cid": "5576",
+  "pid": "0",
+  "thread": "03/",
+  "subject": "Erkster",
+  "author": "III MAGOO III",
+  "uid": "1266",
+  "avatar": null,
+  "created": "2009-04-17T21:15:40+00:00",
+  "body": "<p> </p>\n<p>None of these helped me but this is everything that EA and XBOX support have told me to do.</p>\n<p> </p>\n<p>-------------------------------------THINGS IVE BEEN TOLD TO DO----------------------------</p>\n<p>-checked wiring<br />-checked ports</p>\n<ul>\n<li>TCP 80</li>\n<li>UDP 88</li>\n<li>UDP 3074</li>\n<li>TCP 3074</li>\n<li>UDP 53</li>\n<li>TCP 53</li>\n</ul>\n<p>-nat settings open<br />-Changed date on xbox to 11/15/2005<br />-cleared hard drive cache<br />-deleted all save games and add-ons<br />-redownloaded and reinstalled<br />-i have power cycled my modem (turn off let stand 10-15 mins)<br />-linked my ea acounts<br />-able to play all other XBOX games fine (Iincluding EA titles)   and all work fine<br />-talked to XBOX support, talked to criterion support and even EA UK support<br />-I  have 2 XBOX360s and 2 hard drives. <br />              I also have 2 internet connections in my house, phone line internet and cable internet<br />              I have tried every combination of XBOX to hard drive to internet combo i could do<br />-I also tried using my friends account with his copy of burnout paradise on my XBOX and it worked fine</p>\n<p> </p>\n<p> </p>\n<p> </p>\n<p> </p>\n"
+ },
+ {
+  "cid": "5580",
+  "pid": "5579",
+  "thread": "04.00/",
+  "subject": "Phew! Glad it's been fixed!",
+  "author": "ZombieTron",
+  "uid": "2",
+  "avatar": "/files/pictures/picture-2.jpg",
+  "created": "2009-04-20T07:34:27+00:00",
+  "body": "<p>That was one wierd error message! 😲</p>\n"
+ },
+ {
+  "cid": "5579",
+  "pid": "0",
+  "thread": "04/",
+  "subject": "re:",
+  "author": "III MAGOO III",
+  "uid": "1266",
+  "avatar": null,
+  "created": "2009-04-19T07:50:24+00:00",
+  "body": "<p>Not sure what they did or who did it. But its fixed.</p>\n"
+ }
+]

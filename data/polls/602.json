@@ -1,0 +1,33 @@
+{
+ "nid": "602",
+ "title": "Which Console is topping your Christmas list this year?",
+ "active": "1",
+ "total_votes": 49,
+ "choices": [
+  {
+   "text": "PS3",
+   "votes": 19,
+   "weight": 0
+  },
+  {
+   "text": "Xbox 360",
+   "votes": 28,
+   "weight": 1
+  },
+  {
+   "text": "Nintendo Wii",
+   "votes": 2,
+   "weight": 2
+  },
+  {
+   "text": "PSP",
+   "votes": 0,
+   "weight": 3
+  },
+  {
+   "text": "Nintendo DS",
+   "votes": 0,
+   "weight": 4
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "nid": "190",
+ "title": "What do you want to see added to your User Profile?",
+ "active": "1",
+ "total_votes": 15,
+ "choices": [
+  {
+   "text": "Photo Gallery",
+   "votes": 2,
+   "weight": 0
+  },
+  {
+   "text": "Comments",
+   "votes": 1,
+   "weight": 1
+  },
+  {
+   "text": "Xbox Gamercard",
+   "votes": 3,
+   "weight": 2
+  },
+  {
+   "text": "Message Facility",
+   "votes": 0,
+   "weight": 3
+  },
+  {
+   "text": "Max it out! All of the Above",
+   "votes": 8,
+   "weight": 4
+  },
+  {
+   "text": "Nothing! Keep it Simple",
+   "votes": 1,
+   "weight": 5
+  }
+ ]
+}

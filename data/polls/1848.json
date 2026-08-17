@@ -1,0 +1,38 @@
+{
+ "nid": "1848",
+ "title": "Having tried the demos will you buy Split/Second or Blur?",
+ "active": "1",
+ "total_votes": 327,
+ "choices": [
+  {
+   "text": "Both",
+   "votes": 49,
+   "weight": 0
+  },
+  {
+   "text": "Split/Second",
+   "votes": 86,
+   "weight": 1
+  },
+  {
+   "text": "blur",
+   "votes": 64,
+   "weight": 2
+  },
+  {
+   "text": "Neither",
+   "votes": 63,
+   "weight": 3
+  },
+  {
+   "text": "I haven't tried them",
+   "votes": 47,
+   "weight": 4
+  },
+  {
+   "text": "I will rent them first",
+   "votes": 18,
+   "weight": 5
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "nid": "1232",
+ "title": "Have you completed Burnout 3: Takedown 100%?",
+ "active": "1",
+ "total_votes": 231,
+ "choices": [
+  {
+   "text": "Yes",
+   "votes": 76,
+   "weight": 0
+  },
+  {
+   "text": "No",
+   "votes": 95,
+   "weight": 1
+  },
+  {
+   "text": "I have never played the game",
+   "votes": 60,
+   "weight": 2
+  }
+ ]
+}

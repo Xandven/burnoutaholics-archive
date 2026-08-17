@@ -1,0 +1,38 @@
+{
+ "nid": "860",
+ "title": "What kind of Paradise Island do you want to see?",
+ "active": "1",
+ "total_votes": 362,
+ "choices": [
+  {
+   "text": "Offroad Island",
+   "votes": 52,
+   "weight": 0
+  },
+  {
+   "text": "Stunt Park Island",
+   "votes": 138,
+   "weight": 1
+  },
+  {
+   "text": "Race Track Island",
+   "votes": 55,
+   "weight": 2
+  },
+  {
+   "text": "Airport Island",
+   "votes": 83,
+   "weight": 3
+  },
+  {
+   "text": "Desert Island",
+   "votes": 21,
+   "weight": 4
+  },
+  {
+   "text": "Other - comment your suggestions",
+   "votes": 13,
+   "weight": 5
+  }
+ ]
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  {{/* Not present on the original — without it the mobile breakpoints in
+       responsive.css never fire on a phone. */}}
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+  <link rel="shortcut icon" href="{{ .Site.Params.favicon }}" type="image/vnd.microsoft.icon" />
+  {{ with .Description }}<meta name="description" content="{{ . }}" />{{ end }}
+
+  {{/* Bartik's stylesheets, in Drupal's original load order. Copied verbatim
+       from legacy/drupal by scripts/theme_assets.py — see PLAN.md §2. */}}
+  <link rel="stylesheet" href="/modules/system/system.base.css" media="all" />
+  <link rel="stylesheet" href="/modules/system/system.menus.css" media="all" />
+  <link rel="stylesheet" href="/modules/system/system.messages.css" media="all" />
+  <link rel="stylesheet" href="/modules/system/system.theme.css" media="all" />
+  <link rel="stylesheet" href="/modules/aggregator/aggregator.css" media="all" />
+  <link rel="stylesheet" href="/modules/comment/comment.css" media="all" />
+  <link rel="stylesheet" href="/modules/field/theme/field.css" media="all" />
+  <link rel="stylesheet" href="/modules/node/node.css" media="all" />
+  <link rel="stylesheet" href="/modules/poll/poll.css" media="all" />
+  <link rel="stylesheet" href="/modules/search/search.css" media="all" />
+  <link rel="stylesheet" href="/modules/user/user.css" media="all" />
+  <link rel="stylesheet" href="/modules/forum/forum.css" media="all" />
+  <link rel="stylesheet" href="/sites/all/modules/ctools/css/ctools.css" media="all" />
+  <link rel="stylesheet" href="/sites/all/modules/views/css/views.css" media="all" />
+  <link rel="stylesheet" href="/themes/bartik/css/layout.css" media="all" />
+  <link rel="stylesheet" href="/themes/bartik/css/style.css" media="all" />
+  <link rel="stylesheet" href="/files/color/bartik-c329b437/colors.css" media="all" />
+  <link rel="stylesheet" href="/themes/bartik/css/print.css" media="print" />
+  {{/* Additive only: overrides below 960px, plus archive-specific bits. */}}
+  <link rel="stylesheet" href="/css/archive.css" media="all" />
+  {{ with .OutputFormats.Get "rss" }}
+  <link rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" href="{{ .Permalink }}" />
+  {{ end }}
+  {{ partial "analytics.html" . }}
+</head>
+<body class="html {{ if .IsHome }}front{{ else }}not-front{{ end }} logged-out one-sidebar sidebar-first">
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+
+  <div id="page-wrapper"><div id="page">
+
+    <div id="header" class="without-secondary-menu" data-pagefind-ignore><div class="section clearfix">
+      <a href="/" title="Home" rel="home" id="logo">
+        <img src="{{ .Site.Params.logo }}" alt="Home" />
+      </a>
+      <div id="name-and-slogan">
+        <div id="site-name">
+          <strong><a href="/" title="Home" rel="home"><span>{{ .Site.Params.siteName }}</span></a></strong>
+        </div>
+        <div id="site-slogan">{{ .Site.Params.slogan }}</div>
+      </div>
+      <div class="region region-header">
+        {{ partial "search-block.html" . }}
+      </div>
+    </div></div> <!-- /.section, /#header -->
+
+    <div data-pagefind-ignore>{{ partial "drupal/main-menu.html" . }}</div>
+
+    <div id="main-wrapper" class="clearfix"><div id="main" class="clearfix">
+
+      {{ block "breadcrumb" . }}{{ end }}
+
+      <div id="content" class="column"><div class="section">
+        <a id="main-content"></a>
+        {{ block "main" . }}{{ end }}
+      </div></div> <!-- /.section, /#content -->
+
+      <div id="sidebar-first" class="column sidebar" data-pagefind-ignore><div class="section">
+        <div class="region region-sidebar-first">
+          {{/* First in the sidebar: it explains why nothing is clickable to
+               post with, and it now occupies the slot the removed ad block
+               used to hold at the top. */}}
+          {{ partial "archive-notice.html" . }}
+          {{ partial "drupal/menu-community.html" . }}
+          {{ partial "drupal/menu-features.html" . }}
+          {{ partial "drupal/menu-main.html" . }}
+        </div>
+      </div></div> <!-- /.section, /#sidebar-first -->
+
+    </div></div> <!-- /#main, /#main-wrapper -->
+
+    {{/* "Recent blog posts" / "Recent forum topics". A frozen snapshot, which is
+         correct for an archive — nothing new is being posted. */}}
+    <div id="triptych-wrapper" data-pagefind-ignore>{{ partial "drupal/triptych.html" . }}</div>
+
+    <div data-pagefind-ignore>{{ partial "drupal/footer.html" . }}</div>
+
+  </div></div> <!-- /#page, /#page-wrapper -->
+</body>
+</html>

@@ -1,0 +1,23 @@
+---
+title: "Master of CRASH! - Rush Hour"
+nid: 2033
+type: "story"
+url: /node/2033
+date: 2011-10-26T14:30:11+00:00
+lastmod: 2011-12-11T18:27:50+00:00
+author: "Xandu"
+draft: false
+promote: true
+sticky: false
+weight: 0
+summary: "Welcome to the second part of our Masters of Crash competition. This time you need to get the highest possible total score on all the Rush Hour levels.&nbsp;This seems to be the most popular game mode so we are expecting to see some impressive scores. 2 billion anyone?  The prize this time is another Limited Edition BurnoutAholics.com T-shirt. We are keeping the design of the T-shirt secret until the competitions are over but I can reveal that it has a little bit of CRASH! on it   This leaderboard is calulated by adding the scores from all the Rush Hour crash junctions. Please note that &quot;Score completion&quot; indicates how many of the 18 possible scores have been registered on BurnoutAholics.com by the given member.  Number 1 on 03.12.2011 will be crowned the Master of CRASH!     Previous winners are not eligible to win in this part of the competition. Photographic evidence will be required for random levels for the final result to be valid. So no cheating will be accepted!  uid)  echo \"Start registering your scores uid.\"/edit/Burnout%20Crash%20High%20Scores'>now - this competition has now ended!\"; ?>  &nbsp;   0 AND a.Uid != 2091 AND a.Uid != 2112'           . ' GROUP BY uid'           . ' ORDER BY score DESC '           . ' LIMIT 0, 50';        $sqlMaster = 'SELECT SUM(0 + REPLACE(a.value, \\',\\', \\'\\')) AS score, a.uid, ROUND((COUNT(a.UID) / 18) * 100, 0) as completion FROM `profile_values` a'           . ' LEFT JOIN `profile_fields` b ON (a.fid = b.fid) WHERE '           . ' (b.name LIKE \\'profile_rh%\\') AND'           . ' (a.value is not null AND a.value != \\'\\') AND 0+REPLACE(a.value, \\',\\', \\'\\')> 0 AND (a.Uid = 2091 OR a.Uid = 2112 )'           . ' GROUP BY uid'           . ' ORDER BY score DESC '           . ' LIMIT 0, 50';       echo \"    Rank  Name  Score completion  Score  \";  $result = db_query($sqlMaster);  while($row = mysql_fetch_array($result))  {    $profile = user_load(array('uid' => $row['uid']));    echo \"\";    echo \"Master\";    echo \"\" . $profile->name . \"\";    echo \"\".$row['completion'].\"%\";    echo \"$\".$row['score'].\"\";    echo \"\";  }    $result = db_query($sql);  while($row = mysql_fetch_array($result))  {    $profile = user_load(array('uid' => $row['uid']));    if($prevalue != $row['score'])   $rank = $i;          $prevalue = $row['score'];    if($rank==1)   echo \"\";    else     echo \"\";    echo \"\" . $rank . \"\";    echo \"\" . $profile->name . \"\";    echo \"\".$row['completion'].\"%\";    echo \"$\".$row['score'].\"\";    echo \"\";    $i = $i + 1;  }  echo \"\";  ?>"
+views: 2453
+comment_count: 11
+needs_crawl: true
+---
+<p>Welcome to the second part of our Masters of Crash competition. This time you need to get the highest possible total score on all the Rush Hour levels. This seems to be the most popular game mode so we are expecting to see some impressive scores. 2 billion anyone?</p>
+<p>The prize this time is another Limited Edition BurnoutAholics.com T-shirt. We are keeping the design of the T-shirt secret until the competitions are over but I can reveal that it has a little bit of CRASH! on it 🙂</p>
+<p>This leaderboard is calulated by adding the scores from all the Rush Hour crash junctions. Please note that "Score completion" indicates how many of the 18 possible scores have been registered on BurnoutAholics.com by the given member.</p>
+<p>Number 1 on 03.12.2011 will be crowned the Master of CRASH!</p>
+<h6>
+	<i>Previous winners are not eligible to win in this part of the competition. Photographic evidence will be required for random levels for the final result to be valid. So no cheating will be accepted!</i></h6>

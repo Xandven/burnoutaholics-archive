@@ -1,0 +1,24 @@
+[
+ {
+  "cid": "4",
+  "pid": "0",
+  "thread": "01/",
+  "subject": "Welcome!",
+  "author": "ZombieTron",
+  "uid": "2",
+  "avatar": "/files/pictures/picture-2.jpg",
+  "created": "2007-05-29T10:33:13+00:00",
+  "body": "<p>Welcome to the site GT! Glad you like it! :-)</p>\n"
+ },
+ {
+  "cid": "5",
+  "pid": "0",
+  "thread": "02/",
+  "subject": "Welcome",
+  "author": "Xandu",
+  "uid": "1",
+  "avatar": "/files/pictures/picture-1.jpg",
+  "created": "2007-05-29T10:59:07+00:00",
+  "body": "<p>Welcome! I'm happy you like it.</p>\n"
+ }
+]

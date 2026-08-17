@@ -1,0 +1,23 @@
+{
+ "nid": "605",
+ "title": "Have you raced SUFFUR's I88 race in the Burnout Paradise Demo?",
+ "active": "0",
+ "total_votes": 51,
+ "choices": [
+  {
+   "text": "Yes",
+   "votes": 13,
+   "weight": 0
+  },
+  {
+   "text": "No",
+   "votes": 6,
+   "weight": 1
+  },
+  {
+   "text": "What is the I88 race?",
+   "votes": 32,
+   "weight": 2
+  }
+ ]
+}

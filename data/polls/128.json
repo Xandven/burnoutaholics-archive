@@ -1,0 +1,18 @@
+{
+ "nid": "128",
+ "title": "Have you worn the rubber off your controller while playing Burnout?",
+ "active": "1",
+ "total_votes": 20,
+ "choices": [
+  {
+   "text": "Yes",
+   "votes": 11,
+   "weight": 0
+  },
+  {
+   "text": "No",
+   "votes": 9,
+   "weight": 1
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+{{- /* The original robots.txt was mostly Disallow rules for Drupal paths that no
+       longer exist (/admin, /user/login, /node/add, ...). What is useful here is
+       the sitemap pointer — which the old site never had, having no sitemap.
+
+       The Disallow lines below cover routes with no static equivalent, so
+       crawlers are not served a wall of 404s. Keep comments out of the body:
+       Hugo's whitespace trimming will swallow the surrounding newlines. */ -}}
+User-agent: *
+Allow: /
+Disallow: /user/
+Disallow: /comment/reply/
+Disallow: /node/add/
+Disallow: /admin/
+
+Sitemap: {{ .Site.BaseURL }}sitemap.xml

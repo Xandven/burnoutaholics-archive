@@ -1,0 +1,58 @@
+{
+ "nid": "1785",
+ "title": "Which game mode do you most want to see in the next Burnout game?",
+ "active": "1",
+ "total_votes": 274,
+ "choices": [
+  {
+   "text": "Racing",
+   "votes": 37,
+   "weight": 0
+  },
+  {
+   "text": "Road Rage",
+   "votes": 79,
+   "weight": 1
+  },
+  {
+   "text": "Stunt Run",
+   "votes": 12,
+   "weight": 2
+  },
+  {
+   "text": "Marked Man",
+   "votes": 6,
+   "weight": 3
+  },
+  {
+   "text": "Showtime",
+   "votes": 4,
+   "weight": 4
+  },
+  {
+   "text": "Crash Junctions",
+   "votes": 38,
+   "weight": 5
+  },
+  {
+   "text": "Challenges",
+   "votes": 22,
+   "weight": 6
+  },
+  {
+   "text": "Cops and Robbers",
+   "votes": 25,
+   "weight": 7
+  },
+  {
+   "text": "Split Screen",
+   "votes": 44,
+   "weight": 8
+  },
+  {
+   "text": "Other - Please Leave a Comment",
+   "votes": 7,
+   "weight": 9
+  }
+ ]
+}

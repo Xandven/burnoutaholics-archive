@@ -1,0 +1,28 @@
+{
+ "nid": "238",
+ "title": "What type of BurnoutAholic are you?",
+ "active": "1",
+ "total_votes": 127,
+ "choices": [
+  {
+   "text": "Racer",
+   "votes": 42,
+   "weight": 0
+  },
+  {
+   "text": "Crasher",
+   "votes": 19,
+   "weight": 1
+  },
+  {
+   "text": "Roadrager",
+   "votes": 29,
+   "weight": 2
+  },
+  {
+   "text": "All of the Above",
+   "votes": 37,
+   "weight": 3
+  }
+ ]
+}

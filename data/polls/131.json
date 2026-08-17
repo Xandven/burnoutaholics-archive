@@ -1,0 +1,38 @@
+{
+ "nid": "131",
+ "title": "How long have you gone without blinking while playing Burnout?",
+ "active": "1",
+ "total_votes": 22,
+ "choices": [
+  {
+   "text": "10 seconds",
+   "votes": 1,
+   "weight": 0
+  },
+  {
+   "text": "20 seconds",
+   "votes": 1,
+   "weight": 1
+  },
+  {
+   "text": "30 seconds",
+   "votes": 2,
+   "weight": 2
+  },
+  {
+   "text": "1 lap",
+   "votes": 3,
+   "weight": 3
+  },
+  {
+   "text": "2 laps",
+   "votes": 1,
+   "weight": 4
+  },
+  {
+   "text": "I never blink... because it can all be lost in a blink of an eye!",
+   "votes": 14,
+   "weight": 5
+  }
+ ]
+}

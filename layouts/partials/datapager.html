@@ -1,0 +1,38 @@
+{{/* Pager for data-driven listings.
+
+     Hugo's built-in pagination only works on Pages, and these listings render
+     from data files, so pagination is materialised as real stub pages by
+     scripts/extract_structure.py. This just draws the links, using Drupal's
+     pager markup so Bartik's styling applies.
+
+     Expects a dict: base (url without /page/N), page (1-based), pages (total).
+*/}}
+{{ $base := .base }}{{ $page := .page }}{{ $pages := .pages }}
+{{ if gt $pages 1 }}
+<div class="item-list">
+  <ul class="pager">
+    {{ if gt $page 1 }}
+      <li class="pager-first first"><a href="{{ $base }}">« first</a></li>
+      <li class="pager-previous">
+        <a href="{{ if eq $page 2 }}{{ $base }}{{ else }}{{ $base }}/page/{{ sub $page 1 }}{{ end }}">‹ previous</a>
+      </li>
+    {{ end }}
+
+    {{/* Window of page numbers around the current page. */}}
+    {{ $from := math.Max 1 (sub $page 4) }}
+    {{ $to := math.Min $pages (add $page 4) }}
+    {{ range seq $from $to }}
+      {{ if eq . $page }}
+        <li class="pager-current">{{ . }}</li>
+      {{ else }}
+        <li class="pager-item"><a href="{{ if eq . 1 }}{{ $base }}{{ else }}{{ $base }}/page/{{ . }}{{ end }}">{{ . }}</a></li>
+      {{ end }}
+    {{ end }}
+
+    {{ if lt $page $pages }}
+      <li class="pager-next"><a href="{{ $base }}/page/{{ add $page 1 }}">next ›</a></li>
+      <li class="pager-last last"><a href="{{ $base }}/page/{{ $pages }}">last »</a></li>
+    {{ end }}
+  </ul>
+</div>
+{{ end }}

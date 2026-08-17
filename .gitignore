@@ -1,0 +1,34 @@
+# --- Legacy source material (kept on disk, deliberately NOT in git history) ---
+# These are large and/or contain personal data (user emails, password hashes,
+# commenter IPs) and DB credentials. Keeping them out of history means the repo
+# can be pushed somewhere later without a history rewrite.
+legacy/
+mirror/
+
+# Database dumps, wherever they land
+*.sql
+*.sql.gz
+*.sql.bz2
+*.sql.zip
+
+# Drupal secrets
+settings.php
+sites/default/settings.php
+
+# --- Build output (regenerable) ---
+public/
+resources/
+.hugo_build.lock
+node_modules/
+.pagefind/
+
+# Python bytecode from the migration scripts
+__pycache__/
+*.pyc
+
+# --- OS / editor noise ---
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/

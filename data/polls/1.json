@@ -1,0 +1,23 @@
+{
+ "nid": "1",
+ "title": "Have you seen the trailer for Burnout Paradise?",
+ "active": "0",
+ "total_votes": 10,
+ "choices": [
+  {
+   "text": "Yes!",
+   "votes": 10,
+   "weight": 0
+  },
+  {
+   "text": "No",
+   "votes": 0,
+   "weight": 1
+  },
+  {
+   "text": "What is Burnout Paradise?",
+   "votes": 0,
+   "weight": 2
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+---
+title: "ILM: Upcoming Feature - Path Finding"
+nid: 882
+type: "blog"
+url: /node/882
+date: 2008-03-19T06:12:01+00:00
+lastmod: 2008-03-19T17:17:21+00:00
+author: "senocular"
+draft: false
+promote: false
+sticky: false
+weight: 0
+terms:
+  - name: "Burnout Paradise"
+    tid: 12
+views: 4293
+comment_count: 0
+---
+<p>There haven't been many updates on the map lately, at least not compared to usual.  The feeds update was the last substantial update, though even that wasn't very big.</p>
+<p>I'm anxious to announce that the next big feature I plan on implementing includes a path finding algorithm that will automatically mark out a path between two points.  This is something that I've slowly been working on for the past couple of days, and it's finally beyond it's proof-of-concept stages of development, meaning it should definitely make it in as a feature and not just be another "that would be nice/cool to have."</p>
+<p>There's still a lot to be done, so don't get too excited.  I still need to figure out how to catalog the parts of a path so that they can be stitched together to show the route.  Also, there's the small matter of defining the interface for allowing people to actually use the feature.  After all, as it exists now, the map just displays data; it doesn't let you select multiple points and then run actions that interacts with those points.  Expect sketchy implementations to start with.</p>
+<p>Additionally, I've gotten a suggestion to create an I-88 map, not unlike the current <a href="http://www.senocular.com/burnout/?load=railroads.xml">railroads map</a> marking railroad accessibility with entrances and exits.  This is something that I've had planned, but given the scope of I-88 and just how many ways there are to get on and off it, its not something I've been eager to pursue.  I will try to get to it soon though, and probably before doing much more with the path finding feature.</p>
+<p><strong>Update:</strong> I've created a JavaScript/Canvas implementation (Firefox, and probably Safari, only) for testing here:</p>
+<p><a href="http://www.senocular.com/burnout/tools/findpath.html">http://www.senocular.com/burnout/tools/findpath.html</a></p>
+<p>It's not very user friendly and a bit incomplete (no I-88 routes, for example, just main roads), but it can at least show how paths will eventually be drawn in the original map. If I get time, I can try to throw some labels to the intersections (nodes) so you know what number references what location.</p>

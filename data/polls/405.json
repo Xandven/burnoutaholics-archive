@@ -1,0 +1,38 @@
+{
+ "nid": "405",
+ "title": "How many Settled Scores have you had with the same person?",
+ "active": "1",
+ "total_votes": 25,
+ "choices": [
+  {
+   "text": "Less then 100",
+   "votes": 6,
+   "weight": 0
+  },
+  {
+   "text": "100-199",
+   "votes": 4,
+   "weight": 1
+  },
+  {
+   "text": "200-299",
+   "votes": 2,
+   "weight": 2
+  },
+  {
+   "text": "300-399",
+   "votes": 5,
+   "weight": 3
+  },
+  {
+   "text": "400-499",
+   "votes": 1,
+   "weight": 4
+  },
+  {
+   "text": "500 or More",
+   "votes": 7,
+   "weight": 5
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "nid": "140",
+ "title": "Should Burnout have customisable controls?",
+ "active": "1",
+ "total_votes": 26,
+ "choices": [
+  {
+   "text": "Yes",
+   "votes": 22,
+   "weight": 0
+  },
+  {
+   "text": "No",
+   "votes": 4,
+   "weight": 1
+  }
+ ]
+}

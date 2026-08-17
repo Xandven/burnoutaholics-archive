@@ -1,0 +1,38 @@
+{
+ "nid": "395",
+ "title": "Which Burnout Paradise car looks coolest?",
+ "active": "0",
+ "total_votes": 33,
+ "choices": [
+  {
+   "text": "Steel Wheels",
+   "votes": 4,
+   "weight": 0
+  },
+  {
+   "text": "Montgomery Hawker",
+   "votes": 6,
+   "weight": 1
+  },
+  {
+   "text": "Carson GT Concept",
+   "votes": 3,
+   "weight": 2
+  },
+  {
+   "text": "Hunter Manhattan",
+   "votes": 2,
+   "weight": 3
+  },
+  {
+   "text": "Carson Annihilator",
+   "votes": 7,
+   "weight": 4
+  },
+  {
+   "text": "Watson R-Turbo Roadster",
+   "votes": 11,
+   "weight": 5
+  }
+ ]
+}

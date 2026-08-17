@@ -1,0 +1,38 @@
+{
+ "nid": "459",
+ "title": "What would you miss most if it was removed from Burnout?",
+ "active": "1",
+ "total_votes": 64,
+ "choices": [
+  {
+   "text": "Accelerator",
+   "votes": 11,
+   "weight": 0
+  },
+  {
+   "text": "Boost Bar",
+   "votes": 17,
+   "weight": 1
+  },
+  {
+   "text": "Boost Start",
+   "votes": 6,
+   "weight": 2
+  },
+  {
+   "text": "Brakes",
+   "votes": 2,
+   "weight": 3
+  },
+  {
+   "text": "Drift Jumping",
+   "votes": 17,
+   "weight": 4
+  },
+  {
+   "text": "Speedometer",
+   "votes": 11,
+   "weight": 5
+  }
+ ]
+}

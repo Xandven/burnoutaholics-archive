@@ -1,0 +1,28 @@
+{
+ "nid": "2010",
+ "title": "What do you think about us adding different game forums?",
+ "active": "1",
+ "total_votes": 5,
+ "choices": [
+  {
+   "text": "About time! How about adding...",
+   "votes": 0,
+   "weight": 0
+  },
+  {
+   "text": "I like it",
+   "votes": 3,
+   "weight": 1
+  },
+  {
+   "text": "I'm undecided",
+   "votes": 1,
+   "weight": 2
+  },
+  {
+   "text": "This place should be pure Burnout!",
+   "votes": 1,
+   "weight": 3
+  }
+ ]
+}

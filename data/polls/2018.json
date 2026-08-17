@@ -1,0 +1,23 @@
+{
+ "nid": "2018",
+ "title": "What's Your Favourite Burnout CRASH! Game Mode?",
+ "active": "1",
+ "total_votes": 18,
+ "choices": [
+  {
+   "text": "Road Trip",
+   "votes": 3,
+   "weight": 0
+  },
+  {
+   "text": "Rush Hour",
+   "votes": 10,
+   "weight": 1
+  },
+  {
+   "text": "Pile-Up",
+   "votes": 5,
+   "weight": 2
+  }
+ ]
+}

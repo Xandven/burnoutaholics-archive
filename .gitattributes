@@ -1,0 +1,12 @@
+# Never normalise line endings.
+#
+# This is an archive: the point is that files come back out as they went in.
+# Git's automatic CRLF handling rewrote static/files/bo_first and bo_last (the
+# gamertag word lists, authored on Windows in 2007) end to end — 496 lines
+# "changed" with no content difference. Left alone, that churn would repeat on
+# every clone and checkout, and any genuine edit would be invisible in the diff.
+* -text
+
+# Belt and braces for the asset tree and the transcoded clips.
+static/files/** binary
+static/videos/** binary

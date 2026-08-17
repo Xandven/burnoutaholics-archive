@@ -1,0 +1,33 @@
+{
+ "nid": "170",
+ "title": "Will Showtime be the best ever Burnout Crash mode?",
+ "active": "0",
+ "total_votes": 51,
+ "choices": [
+  {
+   "text": "Yes! I want to Crash at any Junction!!",
+   "votes": 21,
+   "weight": 0
+  },
+  {
+   "text": "Yes! I want to split my car in two!",
+   "votes": 15,
+   "weight": 1
+  },
+  {
+   "text": "No! Burnout Revenge had the best Crash mode!",
+   "votes": 2,
+   "weight": 2
+  },
+  {
+   "text": "No! I want my multipliers!",
+   "votes": 3,
+   "weight": 3
+  },
+  {
+   "text": "What is Showtime??",
+   "votes": 10,
+   "weight": 4
+  }
+ ]
+}

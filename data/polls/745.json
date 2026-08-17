@@ -1,0 +1,43 @@
+{
+ "nid": "745",
+ "title": "What License have you earned in Burnout Paradise?",
+ "active": "1",
+ "total_votes": 334,
+ "choices": [
+  {
+   "text": "Learners Permit",
+   "votes": 2,
+   "weight": 0
+  },
+  {
+   "text": "D License",
+   "votes": 7,
+   "weight": 1
+  },
+  {
+   "text": "C License",
+   "votes": 19,
+   "weight": 2
+  },
+  {
+   "text": "B License",
+   "votes": 78,
+   "weight": 3
+  },
+  {
+   "text": "A License",
+   "votes": 95,
+   "weight": 4
+  },
+  {
+   "text": "Burnout License",
+   "votes": 91,
+   "weight": 5
+  },
+  {
+   "text": "Elite License",
+   "votes": 42,
+   "weight": 6
+  }
+ ]
+}

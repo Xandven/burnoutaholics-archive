@@ -1,0 +1,33 @@
+{
+ "nid": "1141",
+ "title": "How often do you play Burnout Online?",
+ "active": "1",
+ "total_votes": 101,
+ "choices": [
+  {
+   "text": "Every day",
+   "votes": 52,
+   "weight": 0
+  },
+  {
+   "text": "A few days a week",
+   "votes": 32,
+   "weight": 1
+  },
+  {
+   "text": "Once a week",
+   "votes": 6,
+   "weight": 2
+  },
+  {
+   "text": "A few times a month",
+   "votes": 2,
+   "weight": 3
+  },
+  {
+   "text": "Less often",
+   "votes": 9,
+   "weight": 4
+  }
+ ]
+}

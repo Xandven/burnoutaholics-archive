@@ -1,0 +1,57 @@
+[
+ {
+  "cid": "5627",
+  "pid": "0",
+  "thread": "01/",
+  "subject": "int.MaxValue",
+  "author": "Xandu",
+  "uid": "1",
+  "avatar": "/files/pictures/picture-1.jpg",
+  "created": "2009-04-27T09:33:14+00:00",
+  "body": "<p>The biggest possible score is 2147483648. This is the highest possible signed integer value the can be represented in 32 bit. If this had been a unsigned number the maximum value would have been 4294967296. 🤓</p>\n<p>-- The Creator --</p>\n"
+ },
+ {
+  "cid": "5628",
+  "pid": "0",
+  "thread": "02/",
+  "subject": "I do reckon i would have",
+  "author": "Paul-Ferrie",
+  "uid": "1227",
+  "avatar": "/files/pictures/picture-1227.jpg",
+  "created": "2009-04-27T09:42:21+00:00",
+  "body": "<p>I do reckon i would have been in the billion mark somewhere but not that much into it that it would have just zero everything i did?</p>\n<p>\n</p><p> </p>\n"
+ },
+ {
+  "cid": "5684",
+  "pid": "5671",
+  "thread": "03.00/",
+  "subject": "awesome showtime scores",
+  "author": "Dodger455",
+  "uid": "830",
+  "avatar": "/files/pictures/picture-830.jpg",
+  "created": "2009-05-04T17:59:36+00:00",
+  "body": "<p>Yes, always go against traffic this saves your boost.Pick your route so you end up on a busy street, as long as you start on the street you want, it does not matter where you end up.For instance if you start at the end of Nakamura, get onto E. Crawford,the traffic is very busy, and the buses, and limos are numerous.Low, and slow is the best way, and use a car that handles well, and it will handle well in Showtime making it easier to hit those cars.The only way to change direction without reducing your yds traveled that I know of is on a two way street, and traveling against traffic each time, but this does not always work.If you want insane scores go onto I-88 at the toll booth where E. Crawford turns into Webster, and just stay there, the cars will just keep coming, and coming.Use the WTR, it will serve you well there.Good luck!</p>\n<p>Late</p>\n"
+ },
+ {
+  "cid": "5671",
+  "pid": "0",
+  "thread": "03/",
+  "subject": "TIPS FOR HIGH SHOWTIME SCORES PLEASE!",
+  "author": "skyway666",
+  "uid": "1268",
+  "avatar": null,
+  "created": "2009-05-02T20:38:47+00:00",
+  "body": "<p>Hey folks,</p>\n<p>I am in awe of those showtime scores.  Would you please be so kind as to help the rest of us mortals with some tips.</p>\n<p> </p>\n<p>Does it make a diiference which car to use?</p>\n<p>Do you run against the oncomming traffic?</p>\n<p>How do you change direction without the distance reducing?</p>\n<p>do you bounch gigh and fast or low and slow?</p>\n<p>Anything else you would be good enough to share with us?</p>\n<p> </p>\n<p>Thanks in advance,  dont worry, i dont expect im in any danger of beating you, but would love to compete as my current max is 10 mill, and that seems to have been a one off.</p>\n"
+ },
+ {
+  "cid": "5686",
+  "pid": "0",
+  "thread": "04/",
+  "subject": "Big Ints!",
+  "author": "The Parasite",
+  "uid": "1308",
+  "avatar": "/files/pictures/picture-1308.gif",
+  "created": "2009-05-05T02:14:04+00:00",
+  "body": "<p>Don't forget, they could have used a BigInteger, but the xbox wouldn't be able to handle it, lol. Here is the first few dozen digits: 3060575122164406360353704612976286293885888041735769994167767412594765331176716867</p>\n<p>465515291422477573...............(it goes on.)</p>\n<p>Yeah, the number is so huge it would take all the memory on your computer (plus more) to use it.</p>\n"
+ }
+]

@@ -1,0 +1,79 @@
+[
+ {
+  "cid": "5434",
+  "pid": "0",
+  "thread": "01/",
+  "subject": "v1.7?",
+  "author": "ZombieTron",
+  "uid": "2",
+  "avatar": "/files/pictures/picture-2.jpg",
+  "created": "2009-04-02T07:37:47+00:00",
+  "body": "<p>Have you downloaded the v1.7 patch from the Xbox Marketplace? You need this update to go online.</p>\n<p>It seems the Xbox no longer auto updates, but just says \"Server Not Available\", so you need to go get the update!</p>\n<p>If it's not that, then I am not sure what it will be.</p>\n"
+ },
+ {
+  "cid": "5435",
+  "pid": "0",
+  "thread": "02/",
+  "subject": "If you do have 1.7 here is",
+  "author": "YabobK34",
+  "uid": "1054",
+  "avatar": null,
+  "created": "2009-04-02T11:13:50+00:00",
+  "body": "<p>If you do have 1.7 here is something else to try. Sign out your profile and go to system settings. Set the date to the earliest possible date in September 2005 and then sign back in again (the date will of course correct itself back). Now it might work. I had to do this on another EA title that I had the same problem with.</p>\n"
+ },
+ {
+  "cid": "5445",
+  "pid": "0",
+  "thread": "03/",
+  "subject": "It's fixed",
+  "author": "Mordrach",
+  "uid": "1234",
+  "avatar": null,
+  "created": "2009-04-03T12:00:43+00:00",
+  "body": "<p>Thank you both for your suggestions. As it turns out, downloading Burnout Paradise 1.7 resolved the issue. I thought I had already downloaded that one, but it had a completely different intro vs. the other two that I had seen.</p>\n<p>What bugs me about this is that EA was apparently unaware of this requirement.</p>\n<p>Hopefully I'll see you online, and thanks again!</p>\n"
+ },
+ {
+  "cid": "7332",
+  "pid": "5516",
+  "thread": "04.00/",
+  "subject": "i tried doing that and it",
+  "author": "dean_wills",
+  "uid": "2099",
+  "avatar": null,
+  "created": "2011-10-12T21:21:15+00:00",
+  "body": "<p>i tried doing that and it didnt solve the problem</p>\n"
+ },
+ {
+  "cid": "5516",
+  "pid": "0",
+  "thread": "04/",
+  "subject": "Here is the post from CG about this issue",
+  "author": "ZombieTron",
+  "uid": "2",
+  "avatar": "/files/pictures/picture-2.jpg",
+  "created": "2009-04-08T11:30:26+00:00",
+  "body": "<div><strong>On Xbox 360 why do I keep getting a \"Server not available\" message?</strong></div>\n<div> </div>\n<div>To connect to the Burnout Paradise servers you need to be running the latest version of our game. This is currently Burnout Paradise 1.7.</div>\n<div> </div>\n<div>The game should automatically update however occasionally it may not sucessfully get the latest version.</div>\n<div> </div>\n<div><em><strong>I</strong></em><em><strong>f you are having issues please go to the Xbox Live Marketplace, select the Game Add-ons section and verify that the Burnout™ Paradise 1.7 item is ticked. </strong></em></div>\n<div> </div>\n<div>If it isn't please be sure to download it from the Marketplace to get the full Burnout Paradise experience and join the rest of the online community.</div>\n<div> </div>\n<div>The update is FREE and by not being on the latest version, you're missing some great action!</div>\n<div> </div>\n<div>The Burnout Team</div>\n<p> </p>\n"
+ },
+ {
+  "cid": "7330",
+  "pid": "0",
+  "thread": "05/",
+  "subject": "i've got the same problem",
+  "author": "dean_wills",
+  "uid": "2099",
+  "avatar": null,
+  "created": "2011-10-12T10:33:39+00:00",
+  "body": "<p>i've got the same problem i downloaded the 1.9 update and it still wont let me connect to the EA servers</p>\n"
+ },
+ {
+  "cid": "7331",
+  "pid": "0",
+  "thread": "06/",
+  "subject": "Not sure if it helps",
+  "author": "SUFFUR",
+  "uid": "6",
+  "avatar": "/files/pictures/picture-6.jpg",
+  "created": "2011-10-12T11:09:47+00:00",
+  "body": "<p>but if ur on xbox check ur NAT settings.</p>\n"
+ }
+]

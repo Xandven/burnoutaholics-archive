@@ -1,0 +1,50 @@
+{{ define "main" }}
+{{/* Topic listing for one forum. Mirrors Drupal's table#forum-topic-<tid>
+     markup so forum.css applies. Column sort links are dropped — they were
+     server-side query parameters with no static equivalent; the default order
+     (sticky first, then most recent reply) is preserved. */}}
+{{ $tid := printf "%v" .Params.tid }}
+{{ $topics := index .Site.Data.forum_topics $tid }}
+
+<h1 class="title" id="page-title">{{ .Title }}</h1>
+{{ with .Params.description }}<div class="forum-description">{{ . | safeHTML }}</div>{{ end }}
+
+<div id="forum">
+{{ if $topics }}
+{{ $page := default 1 .Params.page }}{{ $per := default 25 .Params.per_page }}
+{{ $start := mul (sub $page 1) $per }}
+{{ $end := math.Min (add $start $per) (len $topics) }}
+{{ $slice := first 0 $topics }}{{ if lt $start (len $topics) }}{{ $slice = after $start (first $end $topics) }}{{ end }}
+<table id="forum-topic-{{ $tid }}">
+  <thead>
+    <tr><th></th><th>Topic</th><th>Replies</th><th>Last reply</th></tr>
+  </thead>
+  <tbody>
+    {{ range $i, $t := $slice }}
+    <tr class="{{ if modBool $i 2 }}odd{{ else }}even{{ end }}">
+      <td class="icon">
+        <div class="topic-status-{{ if $t.sticky }}sticky" title="Sticky topic{{ else }}default" title="Normal topic{{ end }}">
+          <span class="element-invisible">{{ if $t.sticky }}Sticky topic{{ else }}Normal topic{{ end }}</span>
+        </div>
+      </td>
+      <td class="title">
+        <div><a href="/node/{{ $t.nid }}">{{ $t.title }}</a></div>
+        <div>
+          <span class="submitted">By <span class="username">{{ $t.author }}</span>
+          {{ with $t.created }}{{ (time .).Format "Mon, 01/02/2006 - 15:04" }}{{ end }}</span>
+        </div>
+      </td>
+      <td class="replies">{{ $t.replies }}</td>
+      <td class="last-reply">
+        {{ with $t.last_post }}<span class="submitted">{{ (time .).Format "Mon, 01/02/2006 - 15:04" }}</span>{{ end }}
+      </td>
+    </tr>
+    {{ end }}
+  </tbody>
+</table>
+{{ partial "datapager.html" (dict "base" (printf "/forum/%v" $tid) "page" (default 1 .Params.page) "pages" (default 1 .Params.pages)) }}
+{{ else }}
+<p>There are no topics in this forum.</p>
+{{ end }}
+</div>
+{{ end }}

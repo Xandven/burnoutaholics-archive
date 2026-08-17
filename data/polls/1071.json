@@ -1,0 +1,38 @@
+{
+ "nid": "1071",
+ "title": "What are you doing while waiting for Cagney (360)?",
+ "active": "1",
+ "total_votes": 34,
+ "choices": [
+  {
+   "text": "I am on holiday",
+   "votes": 5,
+   "weight": 0
+  },
+  {
+   "text": "Completing all 350 challenges",
+   "votes": 10,
+   "weight": 1
+  },
+  {
+   "text": "Having BBQs",
+   "votes": 1,
+   "weight": 2
+  },
+  {
+   "text": "Waiting for my eggbox to be fixed",
+   "votes": 3,
+   "weight": 3
+  },
+  {
+   "text": "Playing Revenge",
+   "votes": 7,
+   "weight": 4
+  },
+  {
+   "text": "None of the above, please comment",
+   "votes": 8,
+   "weight": 5
+  }
+ ]
+}

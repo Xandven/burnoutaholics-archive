@@ -1,0 +1,38 @@
+{
+ "nid": "288",
+ "title": "What famous TV show did Xandu reference in his last Paradise article?",
+ "active": "0",
+ "total_votes": 11,
+ "choices": [
+  {
+   "text": "My Name is Earl",
+   "votes": 2,
+   "weight": 0
+  },
+  {
+   "text": "Cheers",
+   "votes": 0,
+   "weight": 1
+  },
+  {
+   "text": "Seinfeld",
+   "votes": 6,
+   "weight": 2
+  },
+  {
+   "text": "Fraiser",
+   "votes": 0,
+   "weight": 3
+  },
+  {
+   "text": "Friends",
+   "votes": 2,
+   "weight": 4
+  },
+  {
+   "text": "The King of Queens",
+   "votes": 1,
+   "weight": 5
+  }
+ ]
+}

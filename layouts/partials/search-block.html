@@ -1,0 +1,21 @@
+{{/* Bartik's search block markup, rewired to the static search page. Drupal's
+     database-backed search is gone (it timed out on the live site anyway);
+     /search/ is backed by a Pagefind index built at deploy time. */}}
+<div id="block-search-form" class="block block-search">
+  <div class="content">
+    <form action="/search/" method="get" id="search-block-form" accept-charset="UTF-8">
+      <div><div class="container-inline">
+        <h2 class="element-invisible">Search form</h2>
+        <div class="form-item form-type-textfield form-item-search-block-form">
+          <label class="element-invisible" for="edit-search-block-form--2">Search</label>
+          <input title="Enter the terms you wish to search for." type="text"
+                 id="edit-search-block-form--2" name="q" value="" size="15"
+                 maxlength="128" class="form-text" />
+        </div>
+        <div class="form-actions form-wrapper" id="edit-actions">
+          <input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" />
+        </div>
+      </div></div>
+    </form>
+  </div>
+</div>

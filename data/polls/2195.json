@@ -1,0 +1,53 @@
+{
+ "nid": "2195",
+ "title": "Where did you first hear about BurnoutAholics.com",
+ "active": "1",
+ "total_votes": 32,
+ "choices": [
+  {
+   "text": "From a friend",
+   "votes": 7,
+   "weight": 0
+  },
+  {
+   "text": "Found it on google, bing yahoo etc",
+   "votes": 10,
+   "weight": 1
+  },
+  {
+   "text": "When playing Burnout Revenge Online",
+   "votes": 8,
+   "weight": 2
+  },
+  {
+   "text": "When playing Burnout Paradise Online",
+   "votes": 3,
+   "weight": 3
+  },
+  {
+   "text": "From someone's XBox Live profile",
+   "votes": 4,
+   "weight": 4
+  },
+  {
+   "text": "Another fan site (please comment with url)",
+   "votes": 0,
+   "weight": 5
+  },
+  {
+   "text": "From advert (web, magazine, tshirt etc)",
+   "votes": 0,
+   "weight": 6
+  },
+  {
+   "text": "Twitter",
+   "votes": 0,
+   "weight": 7
+  },
+  {
+   "text": "Facebook",
+   "votes": 0,
+   "weight": 8
+  }
+ ]
+}

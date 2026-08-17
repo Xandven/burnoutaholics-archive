@@ -1,0 +1,33 @@
+{
+ "nid": "1451",
+ "title": "Which Burnout Paradise do you Play?",
+ "active": "1",
+ "total_votes": 407,
+ "choices": [
+  {
+   "text": "Ultimate Box on PC",
+   "votes": 111,
+   "weight": 0
+  },
+  {
+   "text": "Ultimate Box on PS3",
+   "votes": 24,
+   "weight": 1
+  },
+  {
+   "text": "Ultimate Box on Xbox 360",
+   "votes": 32,
+   "weight": 2
+  },
+  {
+   "text": "Burnout Paradise on PS3",
+   "votes": 109,
+   "weight": 3
+  },
+  {
+   "text": "Burnout Paradise on Xbox 360",
+   "votes": 131,
+   "weight": 4
+  }
+ ]
+}

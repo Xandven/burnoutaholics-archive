@@ -1,0 +1,23 @@
+{
+ "nid": "1370",
+ "title": "Did you get what you wanted for Christmas?",
+ "active": "0",
+ "total_votes": 78,
+ "choices": [
+  {
+   "text": "Yes",
+   "votes": 49,
+   "weight": 0
+  },
+  {
+   "text": "No",
+   "votes": 17,
+   "weight": 1
+  },
+  {
+   "text": "I don't do Christmas",
+   "votes": 12,
+   "weight": 2
+  }
+ ]
+}

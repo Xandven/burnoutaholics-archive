@@ -1,0 +1,33 @@
+{
+ "nid": "1689",
+ "title": "How much of the Premium DLC did you buy?",
+ "active": "1",
+ "total_votes": 779,
+ "choices": [
+  {
+   "text": "All of it! Even the Party Pack!",
+   "votes": 168,
+   "weight": 0
+  },
+  {
+   "text": "Most of it, but not ALL.",
+   "votes": 196,
+   "weight": 1
+  },
+  {
+   "text": "Only a couple of packs.",
+   "votes": 135,
+   "weight": 2
+  },
+  {
+   "text": "Just the one.",
+   "votes": 81,
+   "weight": 3
+  },
+  {
+   "text": "I didn't buy any of it.",
+   "votes": 199,
+   "weight": 4
+  }
+ ]
+}

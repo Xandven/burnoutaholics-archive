@@ -1,0 +1,33 @@
+{
+ "nid": "945",
+ "title": "What New Vehicle do you want to see in Burnout Paradise?",
+ "active": "1",
+ "total_votes": 439,
+ "choices": [
+  {
+   "text": "Motorbikes",
+   "votes": 104,
+   "weight": 0
+  },
+  {
+   "text": "Aeroplanes",
+   "votes": 41,
+   "weight": 1
+  },
+  {
+   "text": "Speed Boats",
+   "votes": 17,
+   "weight": 2
+  },
+  {
+   "text": "I want it all!",
+   "votes": 197,
+   "weight": 3
+  },
+  {
+   "text": "I just want Cars",
+   "votes": 80,
+   "weight": 4
+  }
+ ]
+}

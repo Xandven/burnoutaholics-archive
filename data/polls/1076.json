@@ -1,0 +1,43 @@
+{
+ "nid": "1076",
+ "title": "What should our motto say?",
+ "active": "1",
+ "total_votes": 92,
+ "choices": [
+  {
+   "text": "Welcome to Paradise. Home of the true addicts!",
+   "votes": 24,
+   "weight": 0
+  },
+  {
+   "text": "Feed your addiction!",
+   "votes": 12,
+   "weight": 1
+  },
+  {
+   "text": "A Burner's Paradise. Home of the true addicts!",
+   "votes": 6,
+   "weight": 2
+  },
+  {
+   "text": "Burnout Legends Dominating with Revenge Takedowns at the Point of Impact in Paradise!",
+   "votes": 10,
+   "weight": 3
+  },
+  {
+   "text": "Boost flows through the veins of the true addicts!",
+   "votes": 19,
+   "weight": 4
+  },
+  {
+   "text": "Boost your Addiction!, You Know You Belong Here!\"",
+   "votes": 13,
+   "weight": 5
+  },
+  {
+   "text": "Something else! - Please comment with your suggestion",
+   "votes": 8,
+   "weight": 6
+  }
+ ]
+}

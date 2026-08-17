@@ -1,0 +1,43 @@
+{
+ "nid": "13",
+ "title": "How many hours do you play Burnout a day?",
+ "active": "1",
+ "total_votes": 39,
+ "choices": [
+  {
+   "text": "Less than 1 hour",
+   "votes": 2,
+   "weight": 0
+  },
+  {
+   "text": "1 - 2 hours",
+   "votes": 7,
+   "weight": 1
+  },
+  {
+   "text": "3 - 4 hours",
+   "votes": 9,
+   "weight": 2
+  },
+  {
+   "text": "4 - 5 hours",
+   "votes": 2,
+   "weight": 3
+  },
+  {
+   "text": "More than 5 hours!",
+   "votes": 4,
+   "weight": 4
+  },
+  {
+   "text": "I'm a BurnoutAholic!",
+   "votes": 13,
+   "weight": 5
+  },
+  {
+   "text": "I don't play any Burnout games",
+   "votes": 2,
+   "weight": 6
+  }
+ ]
+}

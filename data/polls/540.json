@@ -1,0 +1,18 @@
+{
+ "nid": "540",
+ "title": "Do you want the Burnout 3 Servers back online?",
+ "active": "0",
+ "total_votes": 4,
+ "choices": [
+  {
+   "text": "Yes",
+   "votes": 3,
+   "weight": 0
+  },
+  {
+   "text": "No",
+   "votes": 1,
+   "weight": 1
+  }
+ ]
+}

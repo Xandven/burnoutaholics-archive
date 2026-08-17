@@ -1,0 +1,53 @@
+{
+ "nid": "754",
+ "title": "What is your favourite car manufacturer?",
+ "active": "1",
+ "total_votes": 583,
+ "choices": [
+  {
+   "text": "Hunter",
+   "votes": 84,
+   "weight": 0
+  },
+  {
+   "text": "Watson",
+   "votes": 35,
+   "weight": 1
+  },
+  {
+   "text": "Montgomery",
+   "votes": 54,
+   "weight": 2
+  },
+  {
+   "text": "Carson",
+   "votes": 130,
+   "weight": 3
+  },
+  {
+   "text": "Krieger",
+   "votes": 68,
+   "weight": 4
+  },
+  {
+   "text": "Jansen",
+   "votes": 71,
+   "weight": 5
+  },
+  {
+   "text": "Rossolini",
+   "votes": 65,
+   "weight": 6
+  },
+  {
+   "text": "Nakamura",
+   "votes": 49,
+   "weight": 7
+  },
+  {
+   "text": "Kitano",
+   "votes": 27,
+   "weight": 8
+  }
+ ]
+}

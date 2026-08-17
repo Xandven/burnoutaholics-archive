@@ -1,0 +1,38 @@
+{
+ "nid": "193",
+ "title": "What racing game are you playing most now?",
+ "active": "1",
+ "total_votes": 64,
+ "choices": [
+  {
+   "text": "Burnout Revenge",
+   "votes": 30,
+   "weight": 0
+  },
+  {
+   "text": "Burnout 3: Takedown",
+   "votes": 10,
+   "weight": 1
+  },
+  {
+   "text": "Flatout UC",
+   "votes": 5,
+   "weight": 2
+  },
+  {
+   "text": "Forza 2",
+   "votes": 7,
+   "weight": 3
+  },
+  {
+   "text": "Colin Mcrae Dirt",
+   "votes": 2,
+   "weight": 4
+  },
+  {
+   "text": "None of the above",
+   "votes": 10,
+   "weight": 5
+  }
+ ]
+}

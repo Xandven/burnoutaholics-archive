@@ -1,0 +1,53 @@
+{{ define "main" }}
+{{/* Markup mirrors Drupal's forum module output (table#forum-0, the container
+     row, .icon/.name/.description divs) so forum.css applies unchanged. */}}
+{{ $f := .Site.Data.forums }}
+<h1 class="title" id="page-title">{{ .Title }}</h1>
+
+<div id="forum">
+<table id="forum-0">
+  <thead>
+    <tr>
+      <th>Forum</th>
+      <th>Topics</th>
+      <th>Posts</th>
+      <th>Last post</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{ with $f.container }}
+    <tr id="forum-list-{{ .tid }}" class="odd">
+      <td colspan="4" class="container">
+        <div class="icon forum-status-default" title="No new posts">
+          <span class="element-invisible">No new posts</span>
+        </div>
+        <div class="name"><a href="/forum/{{ .tid }}">{{ .name }}</a></div>
+        {{ with .description }}<div class="description">{{ . | safeHTML }}</div>{{ end }}
+      </td>
+    </tr>
+    {{ end }}
+
+    {{ range $i, $forum := $f.forums }}
+    <tr id="forum-list-{{ $forum.tid }}" class="{{ if modBool $i 2 }}odd{{ else }}even{{ end }}">
+      <td class="forum">
+        <div class="indent">
+          <div class="icon forum-status-default" title="No new posts">
+            <span class="element-invisible">No new posts</span>
+          </div>
+          <div class="name"><a href="/forum/{{ $forum.tid }}">{{ $forum.name }}</a></div>
+          {{ with $forum.description }}<div class="description">{{ . | safeHTML }}</div>{{ end }}
+        </div>
+      </td>
+      <td class="topics">{{ $forum.topics }}</td>
+      <td class="posts">{{ $forum.posts }}</td>
+      <td class="last-reply">
+        {{ with $forum.last_post }}
+          <span class="submitted">{{ (time .).Format "Mon, 01/02/2006 - 15:04" }}</span>
+        {{ else }}n/a{{ end }}
+      </td>
+    </tr>
+    {{ end }}
+  </tbody>
+</table>
+</div>
+{{ end }}

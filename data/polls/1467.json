@@ -1,0 +1,18 @@
+{
+ "nid": "1467",
+ "title": "Which view do you use in Burnout games?",
+ "active": "1",
+ "total_votes": 244,
+ "choices": [
+  {
+   "text": "Bumper Cam",
+   "votes": 36,
+   "weight": 0
+  },
+  {
+   "text": "Third Person",
+   "votes": 208,
+   "weight": 1
+  }
+ ]
+}

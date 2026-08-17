@@ -1,0 +1,53 @@
+{
+ "nid": "435",
+ "title": "How many perfect laps have you had in Burnout Revenge",
+ "active": "1",
+ "total_votes": 203,
+ "choices": [
+  {
+   "text": "Less than 100",
+   "votes": 60,
+   "weight": 0
+  },
+  {
+   "text": "100-999",
+   "votes": 33,
+   "weight": 1
+  },
+  {
+   "text": "1000-1999",
+   "votes": 6,
+   "weight": 2
+  },
+  {
+   "text": "2000-2999",
+   "votes": 6,
+   "weight": 3
+  },
+  {
+   "text": "3000-3999",
+   "votes": 8,
+   "weight": 4
+  },
+  {
+   "text": "4000-4999",
+   "votes": 4,
+   "weight": 5
+  },
+  {
+   "text": "5000-6999",
+   "votes": 11,
+   "weight": 6
+  },
+  {
+   "text": "7000-9999",
+   "votes": 3,
+   "weight": 7
+  },
+  {
+   "text": "More than 10000",
+   "votes": 72,
+   "weight": 8
+  }
+ ]
+}

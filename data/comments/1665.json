@@ -1,0 +1,24 @@
+[
+ {
+  "cid": "6039",
+  "pid": "6031",
+  "thread": "01.00/",
+  "subject": "I had Type 2 from the",
+  "author": "Albertos104",
+  "uid": "1371",
+  "avatar": null,
+  "created": "2009-06-12T16:14:53+00:00",
+  "body": "<p>I had Type 2 from the beginning, but I check it jus to make siure. The error that I get is 8002AD23, maybe that will help you to solve my problem.</p>\n"
+ },
+ {
+  "cid": "6031",
+  "pid": "0",
+  "thread": "01/",
+  "subject": "NAT settings",
+  "author": "Xandu",
+  "uid": "1",
+  "avatar": "/files/pictures/picture-1.jpg",
+  "created": "2009-06-12T05:24:50+00:00",
+  "body": "<p>To me this sounds like a typical NAT settings problem.  I would recommend following <a href=\"http://www.pregamelobby.com/forum/sony-reviews-tips/5618-how-get-type-2-open-nat-your-ps3.html\">this</a> guide to make sure that your NAT is Type 2.</p>\n<p>-- The Creator --</p>\n"
+ }
+]

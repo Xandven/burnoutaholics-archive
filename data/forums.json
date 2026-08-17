@@ -1,0 +1,85 @@
+{
+ "container": {
+  "tid": "21",
+  "vid": "5",
+  "name": "BurnoutAholics Forums",
+  "description": "BurnoutAholics have voted for a Forum. So, here it is!<br/><br/> \r\nThe forum is embedded in the BurnoutAholics site, so you do not need a different user name or login password. When you log in to BurnoutAholics you are also logging into the Forum.<br/><br/> \r\nThis Forum will be moderated. The <a href=\"/node/92\" target=\"top\">Terms of Use</a> apply to the forum as do the following Rules that I learnt from my Mum.<br/><br/> \r\n\"Treat other people as you expect to be treated yourself\" and \"If you dont have anything nice to say, dont say anything at all\"<br/><br/> \r\nHowever these Rules from my Mum should be broken.<br/><br/> \r\n\"Do not speak unless spoken too\" and \"Be seen and not heard\"<br/><br/> \r\nThe only other thing to bear in mind is that BurnoutAholics.com should be a Utopia for Burners so, <i>Be Excellent to Each other and Party on Dudes!</i><br/><br/>ZombieTron",
+  "vocabulary": "Forums",
+  "parent": "0",
+  "weight": 0
+ },
+ "forums": [
+  {
+   "tid": "22",
+   "vid": "5",
+   "name": "BurnoutAholics Feed Your Addiction!",
+   "description": "Post about anything related to Burnout.",
+   "vocabulary": "Forums",
+   "parent": "21",
+   "weight": 0,
+   "topics": 331,
+   "posts": 1740,
+   "last_post": "2018-09-18T21:15:46+00:00"
+  },
+  {
+   "tid": "40",
+   "vid": "5",
+   "name": "Burnout CRASH!",
+   "description": "Discuss all things CRASH! here.",
+   "vocabulary": "Forums",
+   "parent": "21",
+   "weight": 1,
+   "topics": 4,
+   "posts": 27,
+   "last_post": "2012-01-27T15:56:03+00:00"
+  },
+  {
+   "tid": "38",
+   "vid": "5",
+   "name": "Driver: San Francisco",
+   "description": "Discuss all things Driver here.",
+   "vocabulary": "Forums",
+   "parent": "21",
+   "weight": 2,
+   "topics": 3,
+   "posts": 3,
+   "last_post": "2014-04-29T13:21:28+00:00"
+  },
+  {
+   "tid": "39",
+   "vid": "5",
+   "name": "Peggle Aholics",
+   "description": "We Love Peggle! And aren't afraid to talk about it.",
+   "vocabulary": "Forums",
+   "parent": "21",
+   "weight": 3,
+   "topics": 1,
+   "posts": 4,
+   "last_post": "2012-03-27T20:32:28+00:00"
+  },
+  {
+   "tid": "23",
+   "vid": "5",
+   "name": "Life, the Universe and Everything except Burnout!",
+   "description": "Post about anything not related to Burnout.",
+   "vocabulary": "Forums",
+   "parent": "21",
+   "weight": 4,
+   "topics": 94,
+   "posts": 499,
+   "last_post": "2018-09-25T07:41:33+00:00"
+  },
+  {
+   "tid": "55",
+   "vid": "5",
+   "name": "Dangerous Driving",
+   "description": "",
+   "vocabulary": "Forums",
+   "parent": "21",
+   "weight": 9,
+   "topics": 1,
+   "posts": 2,
+   "last_post": "2020-02-10T17:27:36+00:00"
+  }
+ ]
+}

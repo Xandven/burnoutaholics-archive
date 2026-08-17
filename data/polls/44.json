@@ -1,0 +1,33 @@
+{
+ "nid": "44",
+ "title": "What is your favourite Burnout fan site?",
+ "active": "0",
+ "total_votes": 28,
+ "choices": [
+  {
+   "text": "BurnoutAholics.com",
+   "votes": 12,
+   "weight": 0
+  },
+  {
+   "text": "OperationBurnout.com",
+   "votes": 6,
+   "weight": 1
+  },
+  {
+   "text": "BurnoutElite.com",
+   "votes": 1,
+   "weight": 2
+  },
+  {
+   "text": "I like them all equally",
+   "votes": 6,
+   "weight": 3
+  },
+  {
+   "text": "They all suck",
+   "votes": 3,
+   "weight": 4
+  }
+ ]
+}

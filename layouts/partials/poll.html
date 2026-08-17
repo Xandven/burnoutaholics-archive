@@ -1,0 +1,17 @@
+{{/* Frozen poll results. Voting required a database; the final tallies are
+     preserved instead. Markup matches Drupal's poll module so poll.css applies. */}}
+<div class="poll">
+  {{ $total := .total_votes }}
+  {{ range .choices }}
+  <div class="text">{{ .text }}</div>
+  <div class="bar">
+    <div class="foreground" style="width: {{ if $total }}{{ div (mul .votes 100.0) $total }}{{ else }}0{{ end }}%;"></div>
+  </div>
+  <div class="percent">
+    {{ if $total }}{{ printf "%.0f" (div (mul .votes 100.0) $total) }}%{{ else }}0%{{ end }}
+    ({{ .votes }} vote{{ if ne .votes 1 }}s{{ end }})
+  </div>
+  {{ end }}
+  <div class="total">Total votes: {{ $total }}</div>
+  <div class="poll-closed"><em>This poll is closed. Results are final.</em></div>
+</div>

@@ -1,0 +1,24 @@
+[
+ {
+  "cid": "2263",
+  "pid": "0",
+  "thread": "01/",
+  "subject": "Locating streets",
+  "author": "Xandu",
+  "uid": "1",
+  "avatar": "/files/pictures/picture-1.jpg",
+  "created": "2008-03-03T14:01:50+00:00",
+  "body": "<p>The map on <a href=\"http://burnout.ea.com/map/\">http://burnout.ea.com/map/</a> has a pretty good way of locating streets. I like the way the street gets highlighted. I guess it would be quite a lot of work to implement something like this with KML? Have a look at it. It might give you some ideas.</p>\n<p>-- The Creator --</p>\n"
+ },
+ {
+  "cid": "2264",
+  "pid": "0",
+  "thread": "02/",
+  "subject": "Locating Streets",
+  "author": "senocular",
+  "uid": "463",
+  "avatar": null,
+  "created": "2008-03-03T16:12:17+00:00",
+  "body": "<p>@Xandu: I had planned on outlining the streets once \"selected\" - not unlike the railroad link in the blog post. I think (like the EA map) having a list of all the locations is a good idea.  Each placemark could be listed out by name and selecting one would reveal it and show its location.  This way, all streets could be made available at once and easily found by name in a list.  I'd probably have to implement a few more KML properties to make this usable.  That shouldn't be too hard. I guess the worst part would be where in the UI this list is going to fit.</p>\n<p>There's also the issue of intersections... though I guess if you can quickly look up two streets, the intersections wouldn't be hard to find, right?  Maybe a separate definition can be made to cover just intersections.</p>\n<p>^ Sounds like a plan for now.</p>\n"
+ }
+]

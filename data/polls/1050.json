@@ -1,0 +1,33 @@
+{
+ "nid": "1050",
+ "title": "What is your favourite of the new online game modes in Cagney?",
+ "active": "0",
+ "total_votes": 260,
+ "choices": [
+  {
+   "text": "Stunt Run",
+   "votes": 24,
+   "weight": 0
+  },
+  {
+   "text": "Road Rage",
+   "votes": 67,
+   "weight": 1
+  },
+  {
+   "text": "Marked Man",
+   "votes": 40,
+   "weight": 2
+  },
+  {
+   "text": "Timed / mulitpart challenges",
+   "votes": 47,
+   "weight": 3
+  },
+  {
+   "text": "I love them all!",
+   "votes": 82,
+   "weight": 4
+  }
+ ]
+}

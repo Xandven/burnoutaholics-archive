@@ -1,0 +1,38 @@
+{
+ "nid": "1941",
+ "title": "What do you think/hope Criterion Games are working on now?",
+ "active": "1",
+ "total_votes": 239,
+ "choices": [
+  {
+   "text": "DLC for NFS:HP",
+   "votes": 9,
+   "weight": 0
+  },
+  {
+   "text": "Burnout Paradise 2",
+   "votes": 121,
+   "weight": 1
+  },
+  {
+   "text": "Black 2",
+   "votes": 11,
+   "weight": 2
+  },
+  {
+   "text": "A New NFS Title",
+   "votes": 2,
+   "weight": 3
+  },
+  {
+   "text": "A New Burnout Title",
+   "votes": 82,
+   "weight": 4
+  },
+  {
+   "text": "Something Completely Different",
+   "votes": 14,
+   "weight": 5
+  }
+ ]
+}

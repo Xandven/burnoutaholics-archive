@@ -1,0 +1,36 @@
+{{ define "main" }}
+{{/* "Recent posts" — Drupal's tracker. Ordered by latest activity (newest
+     comment, falling back to the node's own changed date), which is what the
+     original did. Markup follows Drupal's tracker table so system.theme.css
+     styles it. */}}
+{{ $rows := .Site.Data.tracker }}
+<h1 class="title" id="page-title">{{ .Title }}</h1>
+
+{{ if $rows }}
+{{ $page := default 1 .Params.page }}{{ $per := default 10 .Params.per_page }}
+{{ $start := mul (sub $page 1) $per }}
+{{ $end := math.Min (add $start $per) (len $rows) }}
+{{ $slice := first 0 $rows }}{{ if lt $start (len $rows) }}{{ $slice = after $start (first $end $rows) }}{{ end }}
+
+<table class="sticky-enabled">
+  <thead>
+    <tr><th>Type</th><th>Post</th><th>Author</th><th>Replies</th><th>Last updated</th></tr>
+  </thead>
+  <tbody>
+    {{ range $i, $r := $slice }}
+    <tr class="{{ if modBool $i 2 }}odd{{ else }}even{{ end }}">
+      <td>{{ $r.type }}</td>
+      <td><a href="/node/{{ $r.nid }}">{{ $r.title }}</a></td>
+      <td><span class="username">{{ $r.author }}</span></td>
+      <td>{{ $r.replies }}</td>
+      <td>{{ with $r.last_activity }}{{ (time .).Format "Mon, 01/02/2006 - 15:04" }}{{ end }}</td>
+    </tr>
+    {{ end }}
+  </tbody>
+</table>
+
+{{ partial "datapager.html" (dict "base" "/tracker" "page" (default 1 .Params.page) "pages" (default 1 .Params.pages)) }}
+{{ else }}
+<p>No recent posts.</p>
+{{ end }}
+{{ end }}

@@ -1,0 +1,33 @@
+{
+ "nid": "1985",
+ "title": "Based on what you have seen so far, will you purchase Burnout Crash!?",
+ "active": "1",
+ "total_votes": 8,
+ "choices": [
+  {
+   "text": "Yes! Always been a day one purchase for me!!",
+   "votes": 2,
+   "weight": 0
+  },
+  {
+   "text": "Yes, I like what I have seen so far!",
+   "votes": 1,
+   "weight": 1
+  },
+  {
+   "text": "Not sure yet, but want to see more.",
+   "votes": 4,
+   "weight": 2
+  },
+  {
+   "text": "No, doesn't look good so far!",
+   "votes": 1,
+   "weight": 3
+  },
+  {
+   "text": "No way! This just isn't Burnout!",
+   "votes": 0,
+   "weight": 4
+  }
+ ]
+}

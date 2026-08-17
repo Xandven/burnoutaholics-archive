@@ -1,0 +1,179 @@
+/*
+ * Additive overrides only. Loaded last, after Bartik's own stylesheets.
+ *
+ * Rule for this file: at widths of 960px and above it must change nothing —
+ * the desktop rendering has to stay identical to the live Drupal site. Every
+ * rule below is either inside a max-width media query, or covers markup that
+ * only exists on the archive (the notice block, frozen polls).
+ */
+
+/* --- archive-specific blocks ------------------------------------------- */
+
+#block-archive-notice .content p {
+  margin: 0 0 0.6em;
+  font-size: 0.923em;
+}
+
+.poll .poll-closed {
+  margin-top: 0.6em;
+  font-size: 0.923em;
+  opacity: 0.8;
+}
+
+/* Comments are frozen, so the reply affordances are gone; keep the arrow from
+   colliding with the now-shorter attribution column. */
+.comment .comment-text {
+  min-height: 3em;
+}
+
+/* --- responsive: below 960px only -------------------------------------- */
+/*
+ * Bartik is a fixed 960px grid with `min-width: 960px` on #page-wrapper, so on
+ * a phone the live site renders as a 960px page you must pinch and scroll
+ * sideways. These rules stack the layout instead. Nothing here applies at
+ * >= 960px.
+ */
+@media (max-width: 959px) {
+  #page-wrapper,
+  #page {
+    min-width: 0;
+  }
+
+  #header div.section,
+  #featured div.section,
+  #messages div.section,
+  #main,
+  #triptych,
+  #footer-columns,
+  #footer {
+    width: auto;
+    max-width: 100%;
+  }
+
+  /* Content and sidebar stack instead of sitting side by side. */
+  .one-sidebar #content,
+  .two-sidebars #content,
+  .no-sidebars #content,
+  #sidebar-first,
+  #sidebar-second {
+    float: none;
+    width: auto;
+  }
+
+  #logo img {
+    max-width: 80%;
+    height: auto;
+  }
+
+  /* The header search box is absolutely positioned at 480px wide in Bartik. */
+  .region-header {
+    position: static;
+    float: none;
+    width: auto;
+    padding: 0 15px 10px;
+  }
+
+  #main-menu-links {
+    padding: 0 10px;
+  }
+
+  #main-menu-links li {
+    float: none;
+    display: inline-block;
+  }
+
+  /* Post content from 2007 is full of fixed-width tables and images. */
+  #content img,
+  #content table,
+  #content iframe,
+  #content object,
+  #content embed {
+    max-width: 100%;
+    height: auto;
+  }
+
+  #content table {
+    display: block;
+    overflow-x: auto;
+  }
+
+  .footer-columns .region {
+    float: none;
+    width: auto;
+  }
+}
+
+@media (max-width: 560px) {
+  .comment .user-picture {
+    float: none;
+  }
+
+  .comment.indented {
+    margin-left: 10px !important;
+  }
+}
+
+/* --- archived video clips ---------------------------------------------- */
+/*
+ * The .wmv originals were transcoded to MP4 (see scripts/transcode_videos.py).
+ * Players replace what used to be links to a dead ActiveX viewer.
+ */
+
+video.archived-clip {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0.6em 0;
+  background: #000;
+}
+
+.clip-index {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1.4em;
+  margin-top: 1em;
+}
+
+.clip h3 {
+  margin: 0 0 0.3em;
+  font-size: 1em;
+}
+
+.clip-meta {
+  margin: 0.2em 0 0;
+  font-size: 0.85em;
+  opacity: 0.8;
+}
+
+/* --- FAQ (rebuild of Drupal's faq module page) -------------------------- */
+
+.faq-description { margin-bottom: 1.2em; }
+
+.faq-category-menu { margin-bottom: 1em; }
+
+.faq-header {
+  margin: 0.8em 0 0.3em;
+  font-size: 1.05em;
+}
+
+.faq-ul-questions-top { margin: 0 0 0.5em 1.2em; }
+
+.faq-category-group {
+  margin-top: 2em;
+  padding-top: 0.5em;
+  border-top: 1px solid #ccc;
+}
+
+.faq-category-title { margin: 0 0 0.6em; }
+
+.faq-question-answer {
+  margin-bottom: 1.6em;
+  scroll-margin-top: 1em;
+}
+
+.faq-question h4 { margin: 0 0 0.3em; }
+
+.faq-back-to-top {
+  font-size: 0.85em;
+  opacity: 0.75;
+}

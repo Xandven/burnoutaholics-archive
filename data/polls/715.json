@@ -1,0 +1,33 @@
+{
+ "nid": "715",
+ "title": "Which district of Paradise City are you going to explore first?",
+ "active": "0",
+ "total_votes": 151,
+ "choices": [
+  {
+   "text": "Palm Bay Heights",
+   "votes": 21,
+   "weight": 0
+  },
+  {
+   "text": "Downtown Paradise",
+   "votes": 35,
+   "weight": 1
+  },
+  {
+   "text": "Harbour Town",
+   "votes": 8,
+   "weight": 2
+  },
+  {
+   "text": "Silver Lake",
+   "votes": 12,
+   "weight": 3
+  },
+  {
+   "text": "White Mountain",
+   "votes": 75,
+   "weight": 4
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+[
+ {
+  "cid": "6105",
+  "pid": "0",
+  "thread": "01/",
+  "subject": "We are not Criterion Games...",
+  "author": "ZombieTron",
+  "uid": "2",
+  "avatar": "/files/pictures/picture-2.jpg",
+  "created": "2009-06-29T09:20:04+00:00",
+  "body": "<p>I agree with you that the placing of invisible walls is slightly odd at times. While cruising around the Island finding my last smashes and billboards and finishing up some road rules I flew into the sea a few times!!! Invisible walls there would have been great! 🙂</p>\n<p>I doubt very much that we will ever see planes in Paradise, except maybe as a PC mod if you have the PC version?? I am not convinced there will be any more updates to this game at all...</p>\n<p>Paid DLC is now a part of every game pretty much, you still have the full original game on the disc, all of the DLC is additional to the original game and as it takes time and hard work to make this additional content ofcourse we have to pay for it.</p>\n<p>If you want to ask these questions, or any others to the people who made Burnout Paradise, send an email to them at: <a href=\"mailto:mailbag@criteriongames.com\">mailbag@criteriongames.com</a></p>\n"
+ },
+ {
+  "cid": "6107",
+  "pid": "0",
+  "thread": "02/",
+  "subject": "Learn how to make a game first, before critics would help you.",
+  "author": "jwillisjr",
+  "uid": "846",
+  "avatar": "/files/pictures/picture-846.png",
+  "created": "2009-06-30T17:54:56+00:00",
+  "body": "<p>Arnold,</p>\n<p>    Thank you for taking the time to write to the site. Please check past articles as we have discussed many things we would like in or taken out of the game. <b> However these invisible walls and barriers are not there to always block you from somewhere all the time. Try getting to learn a game editor like unreal engine or something on a pc. No editors on consoles.</b>  You will learn the difference between static meshes and these invisiible walls that you speak of. Sometimes they are not walls, they are containers of the world that inhabits them.<b> Here are a few quick things to keep in mind.</b></p>\n<p><b>When you first build a map in a world editor, you mark up its length width and heigh, light properties and more before you begin doing anything else (for most people, this is all just a big box or sometimes any geometric shape if the editor asks for it). </b>If you want to add another world to the world you already have, for example and island to the main land, one way would be to create almost a bridge/tunnel between them, and make it transparent. Sometimes the atmosphere, depending on what engine you use, is inside the world or outside of it, such as the sky or climates.</p>\n<p><b>Objects or meshes</b> are made within or without a barrier and sometimes it is too late to change that after it has been handed for you to import into the game engine if you do not have control over it's properties <b>(False or true properties)</b>. <b>Static meshes are meshes that are possibly just for decore and can not have properties changed by the player, such as combustions and crashes (collision events when two objects with certian properties come into contact with each other).</b></p>\n<p>Some of those invisable walls were not put there on purpose to make you crash or keep you out. Sometimes what you are running into is really running out of an area that you were meant to stay in. When an object becomes a False, then you are marked as a crashed vehicle.</p>\n<p>Please write to CG, as I often have with my questions, comments or concerns. Be polite, these guys work harder than it shows.</p>\n<p> </p>\n<p>\"The sleep of reason produces monsters\" -Goya <a href=\"http://livedna.xboxlivenation.com/blackwolf22303\" target=\"_blank\"><img border=\"0\" src=\"http://sig.xboxlivenation.com/sig4422.png\" alt=\"LiveDNA\" /></a></p>\n"
+ }
+]

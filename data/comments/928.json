@@ -1,0 +1,46 @@
+[
+ {
+  "cid": "2492",
+  "pid": "2489",
+  "thread": "01.00.00.00/",
+  "subject": "Opened all the ports again",
+  "author": "Wei",
+  "uid": "618",
+  "avatar": "/files/pictures/picture-618.jpg",
+  "created": "2008-04-15T19:21:25+00:00",
+  "body": "<p>I went back into the router reset some of the settings.  More specifically, I closed all of my console-related ports and reopened them.  That <i>seems</i> to have done the trick, even my mic was working.</p>\n<p>With the way things have been going, though, I am not going to actually pronounce it <i>'fixed'</i> until it works every time over the course of several tries.</p>\n"
+ },
+ {
+  "cid": "2489",
+  "pid": "2488",
+  "thread": "01.00.00/",
+  "subject": "sounds frustrating",
+  "author": "ZombieTron",
+  "uid": "2",
+  "avatar": "/files/pictures/picture-2.jpg",
+  "created": "2008-04-15T08:30:19+00:00",
+  "body": "<p>But, being technically inept I have no clue what the problem is. Have you done the Xbox Live connection test? I hope you get it fixed soon! 🙁</p>\n<p>--- The Original and the Best ---</p>\n"
+ },
+ {
+  "cid": "2488",
+  "pid": "2487",
+  "thread": "01.00/",
+  "subject": "Spoke too soon...",
+  "author": "Wei",
+  "uid": "618",
+  "avatar": "/files/pictures/picture-618.jpg",
+  "created": "2008-04-15T02:17:44+00:00",
+  "body": "<p>This is really making me mad.  I played for over an hour earlier tonight with-out the slightest issue.  I left the game when it challenges stopped being set and took a little break.  I go to log back online, and now it keeps giving me a 80710102 error and refuses to let me log in.</p>\n<p>Nothing has changed setting wise, except that I finally hooked up my bluetooth headset that came with Warhawk.</p>\n<p>...</p>\n<p>!@#$^&amp;%$@&amp;#%$@&amp;$##$%^%$^.....</p>\n"
+ },
+ {
+  "cid": "2487",
+  "pid": "0",
+  "thread": "01/",
+  "subject": "Fixed?",
+  "author": "Wei",
+  "uid": "618",
+  "avatar": "/files/pictures/picture-618.jpg",
+  "created": "2008-04-14T21:48:48+00:00",
+  "body": "<p>By juggling the ip a little bit, I think I managed to get it sorted out.  The thing is, I already had the laptop and PS3 set to different ip's.  I still lost internet on my system while the PSN is logging in, and I am about to test if I still discon when going online in-game.  This will be posting as I play online (I hope).</p>\n<p>Edit: Yay!  I am currently freeburning with minatopee, fastwrx500hp, and a couple others. Win!</p>\n"
+ }
+]

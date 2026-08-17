@@ -1,0 +1,28 @@
+{
+ "nid": "1526",
+ "title": "What is your favourite Boost Special car?",
+ "active": "1",
+ "total_votes": 380,
+ "choices": [
+  {
+   "text": "Carson Extreme Hot Rod",
+   "votes": 107,
+   "weight": 0
+  },
+  {
+   "text": "Hawker Mech",
+   "votes": 88,
+   "weight": 1
+  },
+  {
+   "text": "I didn't buy the cars",
+   "votes": 145,
+   "weight": 2
+  },
+  {
+   "text": "I love both of them equally",
+   "votes": 40,
+   "weight": 3
+  }
+ ]
+}

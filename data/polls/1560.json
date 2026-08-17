@@ -1,0 +1,48 @@
+{
+ "nid": "1560",
+ "title": "What is your highest number of barrel rolls in Burnout Paradise?",
+ "active": "1",
+ "total_votes": 452,
+ "choices": [
+  {
+   "text": "3 or less",
+   "votes": 195,
+   "weight": 0
+  },
+  {
+   "text": "4",
+   "votes": 75,
+   "weight": 1
+  },
+  {
+   "text": "5",
+   "votes": 49,
+   "weight": 2
+  },
+  {
+   "text": "6",
+   "votes": 26,
+   "weight": 3
+  },
+  {
+   "text": "7",
+   "votes": 25,
+   "weight": 4
+  },
+  {
+   "text": "8",
+   "votes": 16,
+   "weight": 5
+  },
+  {
+   "text": "9",
+   "votes": 15,
+   "weight": 6
+  },
+  {
+   "text": "I'm a glitcher so I've got more than 9!",
+   "votes": 51,
+   "weight": 7
+  }
+ ]
+}

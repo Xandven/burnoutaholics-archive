@@ -1,0 +1,38 @@
+{
+ "nid": "111",
+ "title": "What's your favourite USA location track on Burnout 3: Takedown?",
+ "active": "1",
+ "total_votes": 23,
+ "choices": [
+  {
+   "text": "Silver Lake",
+   "votes": 3,
+   "weight": 0
+  },
+  {
+   "text": "Downtown",
+   "votes": 5,
+   "weight": 1
+  },
+  {
+   "text": "Waterfront",
+   "votes": 1,
+   "weight": 2
+  },
+  {
+   "text": "Kings of the Road",
+   "votes": 6,
+   "weight": 3
+  },
+  {
+   "text": "Lakeside Getaway",
+   "votes": 6,
+   "weight": 4
+  },
+  {
+   "text": "Mountain Parkway",
+   "votes": 2,
+   "weight": 5
+  }
+ ]
+}

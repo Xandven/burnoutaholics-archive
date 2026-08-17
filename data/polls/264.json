@@ -1,0 +1,48 @@
+{
+ "nid": "264",
+ "title": "What is the best platform for Burnout?",
+ "active": "1",
+ "total_votes": 38,
+ "choices": [
+  {
+   "text": "Gamecube",
+   "votes": 0,
+   "weight": 0
+  },
+  {
+   "text": "Playstation 2",
+   "votes": 3,
+   "weight": 1
+  },
+  {
+   "text": "Xbox",
+   "votes": 1,
+   "weight": 2
+  },
+  {
+   "text": "Xbox 360",
+   "votes": 23,
+   "weight": 3
+  },
+  {
+   "text": "PSP",
+   "votes": 1,
+   "weight": 4
+  },
+  {
+   "text": "NintendoDS",
+   "votes": 0,
+   "weight": 5
+  },
+  {
+   "text": "Mobile Phone",
+   "votes": 0,
+   "weight": 6
+  },
+  {
+   "text": "Playstation 3",
+   "votes": 10,
+   "weight": 7
+  }
+ ]
+}

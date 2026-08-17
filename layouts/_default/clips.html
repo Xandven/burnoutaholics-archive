@@ -1,0 +1,44 @@
+{{ define "main" }}
+{{/* The rebuilt Clip Viewer (/node/10).
+
+     The original took `?wmv=` and `?title=` query parameters and embedded a
+     Windows Media Player ActiveX control — neither a static host nor any current
+     browser can serve that. Since every old link pointed here with a different
+     clip, this is now a straightforward index of all of them, and the links
+     themselves have been converted to inline players where they sit. */}}
+
+<h1 class="title" id="page-title">{{ .Title }}</h1>
+
+<div class="node node-page clearfix">
+  <div class="content clearfix">
+    {{ with .Content }}
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden">
+      <div class="field-items"><div class="field-item even">{{ . }}</div></div>
+    </div>
+    {{ end }}
+
+    {{ $clips := .Site.Data.clips }}
+    {{ if $clips }}
+    <p>{{ len $clips }} clips from the BurnoutAholics community, converted from
+       their original Windows Media files so they play in a browser again.</p>
+
+    <div class="clip-index">
+      {{ range $clips }}
+      <div class="clip" id="clip-{{ .file | urlize }}">
+        <h3>{{ .title }}</h3>
+        <video class="archived-clip" controls preload="none" aria-label="{{ .title }}">
+          <source src="{{ .src }}" type="video/mp4" />
+          <a href="{{ .src }}">{{ .title }}</a>
+        </video>
+        <p class="clip-meta">
+          <a href="{{ .src }}">Download</a> — {{ div .bytes 1048576 | lang.FormatNumber 1 }} MB
+        </p>
+      </div>
+      {{ end }}
+    </div>
+    {{ else }}
+    <p>No clips are available.</p>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

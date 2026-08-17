@@ -1,0 +1,31 @@
+{{ define "main" }}
+<h1 class="title" id="page-title">{{ .Title }}</h1>
+
+{{ $pages := .Pages }}
+{{ $paged := .Paginate $pages }}
+
+{{ range $paged.Pages }}
+<div class="node node-{{ .Params.type }} node-teaser clearfix">
+  <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+  <div class="meta submitted">
+    <span class="submitted">
+      Submitted by <span class="username">{{ .Params.author }}</span>
+      {{ with .Date }}on {{ .Format "Mon, 01/02/2006 - 15:04" }}{{ end }}
+    </span>
+  </div>
+  <div class="content clearfix">
+    {{ with .Params.summary }}<p>{{ . }}</p>{{ else }}{{ .Summary }}{{ end }}
+  </div>
+  <ul class="links inline clearfix">
+    <li class="node-readmore first"><a href="{{ .RelPermalink }}">Read more</a></li>
+    {{ with .Params.comment_count }}{{ if gt . 0 }}
+    <li class="comment-comments last">
+      <a href="{{ $.RelPermalink }}#comments">{{ . }} comment{{ if ne . 1 }}s{{ end }}</a>
+    </li>
+    {{ end }}{{ end }}
+  </ul>
+</div>
+{{ end }}
+
+{{ template "_internal/pagination.html" . }}
+{{ end }}

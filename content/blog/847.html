@@ -1,0 +1,79 @@
+---
+title: "ILM: The Story So Far"
+nid: 847
+type: "blog"
+url: /node/847
+date: 2008-03-03T12:07:42+00:00
+lastmod: 2008-03-03T12:13:49+00:00
+author: "senocular"
+draft: false
+promote: false
+sticky: false
+weight: 0
+terms:
+  - name: "Burnout Paradise"
+    tid: 12
+views: 2981
+comment_count: 0
+---
+<p>As of today, the map contains the following locations:</p>
+<ul>
+<li>City districts</li>
+<li>Super jumps</li>
+<li>Billboards</li>
+<li>Smashes</li>
+<li>Events</li>
+<li>Drive thrus</li>
+<li>Parking Garages</li>
+<li>Hidden areas</li>
+</ul>
+<p>Clicking on the icons within a locations set will give you a description of that location.  Unfortunately, not too much detail is available for most of the available locations, but over time, that will improve.</p>
+<p><img width="450" height="386" alt="Interactive Locations Map Screenshot" src="http://www.senocular.com/burnout/images/screenshot.jpg" /></p>
+<p>Locations are specified using <a href="http://code.google.com/apis/kml/">Googles KML</a> - an XML format that Google uses for Google Earth and Google Maps.  Whenever you load a locations set from the Locations menu on the left, you can see its related KML using the Map KML menu below it.  Here is some sample KML:</p>
+<p><code>&lt;kml xmlns="<a href="http://earth.google.com/kml/2.1">http://earth.google.com/kml/2.1</a>"&gt;<br />
+	&lt;Document&gt;<br />
+		&lt;name&gt;Drive Thrus&lt;/name&gt;<br />
+		&lt;LookAt&gt;<br />
+			&lt;latitude&gt;580&lt;/latitude&gt;<br />
+			&lt;longitude&gt;501&lt;/longitude&gt;<br />
+			&lt;range&gt;250&lt;/range&gt;<br />
+		&lt;/LookAt&gt;<br />
+		&lt;Style id="iconStyle"&gt;<br />
+			&lt;IconStyle&gt;<br />
+				&lt;Icon&gt;<br />
+					&lt;href&gt;$raceflag&lt;/href&gt;<br />
+				&lt;/Icon&gt;<br />
+			&lt;/IconStyle&gt;<br />
+		&lt;/Style&gt;<br />
+		&lt;Placemark&gt;<br />
+			&lt;name&gt;Pier&lt;/name&gt;<br />
+			&lt;styleUrl&gt;#iconStyle&lt;/styleUrl&gt;<br />
+			&lt;description&gt;Meet on this pier leading to the island.&lt;/description&gt;<br />
+			&lt;Point&gt;<br />
+				&lt;coordinates&gt;535,600&lt;/coordinates&gt;<br />
+			&lt;/Point&gt;<br />
+		&lt;/Placemark&gt;<br />
+	&lt;/Document&gt;<br />
+&lt;/kml&gt;</code></p>
+<p>
+</p><p>If you copy and paste that into the Write KML field of the Map KML dialog and hit apply, you can see the result.
+</p>
+<p> </p>
+<p>
+</p><p>Additionally, custom URLs can be made to show different locations on the map. Each location set (defined in KML) can be loaded into the map when its loaded when using a custom URL with a load parameter that specifies the location sets filename.  For example, to see the hidden areas in the game, use the url:</p>
+<p><a href="http://www.senocular.com/burnout/load=hiddenareas.xml">http://www.senocular.com/burnout/load=hiddenareas.xml</a>
+</p>
+<p> </p>
+<p>
+</p><p>You can even make your own KML files, upload them to your website, and reference those files directly with the load parameter so you can share your maps with your friends.
+</p>
+<p> </p>
+<p>
+</p><p>Other URL parameters can be used to simply start with a custom view or indicate a point on the map (with a default arrow icon), or even draw lines or shapes.  For example, this URL will draw a triangle in the middle of the screen:</p>
+<p><a href="http://www.senocular.com/burnout/?Polygon=600,800 550,850 600,900">http://www.senocular.com/burnout/?Polygon=600,800 550,850 600,900</a>
+</p>
+<p> </p>
+<p>
+</p><p>For more information on the capabilities of the map and to learn more about the level of KML supported, be sure to read through the information on the <a href="http://www.senocular.com/burnout/kmlsupport.html">main map page</a>, and the page on <a href="http://www.senocular.com/burnout/kmlsupport.html">KML support</a>.
+</p>
+<p> </p>

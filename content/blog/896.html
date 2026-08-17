@@ -1,0 +1,24 @@
+---
+title: "ILM: An Interactive Map on the PSP?"
+nid: 896
+type: "blog"
+url: /node/896
+date: 2008-03-27T14:57:52+00:00
+lastmod: 2008-03-27T14:57:52+00:00
+author: "senocular"
+draft: false
+promote: false
+sticky: false
+weight: 0
+terms:
+  - name: "Burnout Paradise"
+    tid: 12
+views: 4916
+comment_count: 0
+---
+<p>Over in the <a href="http://www.criteriongames.com/forum/index.php">Criterion Forums</a>, someone voiced concern for having <a href="http://www.senocular.com/burnout/">the map</a> work with the PSP.  When making the map, one of my requirements was to have it work on the PS3. So far I've been sticking to that, but I've neglected to also include the PSP, a likelier candidate given that you could be referencing the map on your PSP while you were playing the game.</p>
+<p>The problem with the PSP, well one of them, is that it doesn't have the same support for the Flash Player that the PS3 has - not that the PS3 is exactly stellar itself, but the PSP is even another version below that - Flash Player 6 whereas PS3 (currently) supports Flash Player 7.</p>
+<p>Thankfully, not too much has changed between those versions, that is, at least not within the context of my design.  Sure, printing will be lost, but who needs to print from a PSP anyway? But aside from some other small programmatic behavior changes that I've already isolated and addressed, that's about it.  I already have a version of the map running in Flash Player 6.</p>
+<p>Hurdle 1 (version support): addressed.</p>
+<p>Now for the next one: screen size.  The PSP runs at a resolution of 480 by 		    272 pixels.  The map's current size is 700 by 600 pixels - over 3 times the size supported by the PSP screen. Not ideal.  Now, the map could just be scaled down - it is Flash, after all - but the ratio would be incorrect.  The map is more square and the PSP has a wider screen. Additionally, some of the text would be difficult if not impossible to read.  What the PSP really needs is it's own version of the map with a new interface and simplified design.  Unfortunately, this is not as easy as making Flash Player 7 code compatible with Flash Player 6.  This could use some extra work and effort.</p>
+<p>Right now I'm still working on some infrastructure changes that would be able to treat icon interactions differently allowing for a path finder feature.  It's slow going, but going.  The PSP version might have to wait until after that... that is unless there's a high demand for that now... ?</p>

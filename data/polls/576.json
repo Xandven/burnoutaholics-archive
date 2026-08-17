@@ -1,0 +1,38 @@
+{
+ "nid": "576",
+ "title": "What is your best Flatspin?",
+ "active": "1",
+ "total_votes": 146,
+ "choices": [
+  {
+   "text": "Less than 100 degrees",
+   "votes": 2,
+   "weight": 0
+  },
+  {
+   "text": "100-199 degrees",
+   "votes": 18,
+   "weight": 1
+  },
+  {
+   "text": "200-299 degrees",
+   "votes": 16,
+   "weight": 2
+  },
+  {
+   "text": "300-499 degrees",
+   "votes": 34,
+   "weight": 3
+  },
+  {
+   "text": "More than 500 degrees",
+   "votes": 61,
+   "weight": 4
+  },
+  {
+   "text": "What is a Flatspin?",
+   "votes": 15,
+   "weight": 5
+  }
+ ]
+}

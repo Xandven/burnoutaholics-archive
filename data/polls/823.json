@@ -1,0 +1,33 @@
+{
+ "nid": "823",
+ "title": "Which DJ is or would be best in Burnout?",
+ "active": "1",
+ "total_votes": 268,
+ "choices": [
+  {
+   "text": "DJ Striker",
+   "votes": 27,
+   "weight": 0
+  },
+  {
+   "text": "DJ Atomika",
+   "votes": 82,
+   "weight": 1
+  },
+  {
+   "text": "Howard Stern",
+   "votes": 27,
+   "weight": 2
+  },
+  {
+   "text": "Chris Moyles",
+   "votes": 48,
+   "weight": 3
+  },
+  {
+   "text": "I don't want a DJ!",
+   "votes": 84,
+   "weight": 4
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "nid": "119",
+ "title": "What's your favourite track in Europe in Burnout 3: Takedown?",
+ "active": "1",
+ "total_votes": 20,
+ "choices": [
+  {
+   "text": "Alpine",
+   "votes": 2,
+   "weight": 0
+  },
+  {
+   "text": "Vineyard",
+   "votes": 4,
+   "weight": 1
+  },
+  {
+   "text": "Winter City",
+   "votes": 5,
+   "weight": 2
+  },
+  {
+   "text": "Riviera",
+   "votes": 0,
+   "weight": 3
+  },
+  {
+   "text": "Coastal Dream",
+   "votes": 2,
+   "weight": 4
+  },
+  {
+   "text": "Continental Run",
+   "votes": 3,
+   "weight": 5
+  },
+  {
+   "text": "Alpine Expressway",
+   "votes": 4,
+   "weight": 6
+  }
+ ]
+}

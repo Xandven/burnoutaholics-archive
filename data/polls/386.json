@@ -1,0 +1,23 @@
+{
+ "nid": "386",
+ "title": "Are you considering buying a PS3 to play Burnout Paradise?",
+ "active": "0",
+ "total_votes": 33,
+ "choices": [
+  {
+   "text": "Yes",
+   "votes": 5,
+   "weight": 0
+  },
+  {
+   "text": "No",
+   "votes": 24,
+   "weight": 1
+  },
+  {
+   "text": "I already have a PS3",
+   "votes": 4,
+   "weight": 2
+  }
+ ]
+}

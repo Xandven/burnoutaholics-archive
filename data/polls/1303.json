@@ -1,0 +1,18 @@
+{
+ "nid": "1303",
+ "title": "Will you be getting the Toy Cars Pack?",
+ "active": "0",
+ "total_votes": 103,
+ "choices": [
+  {
+   "text": "Yes",
+   "votes": 73,
+   "weight": 0
+  },
+  {
+   "text": "No",
+   "votes": 30,
+   "weight": 1
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "nid": "1913",
+ "title": "Will you be getting Need For Speed: Hot Pursuit?",
+ "active": "1",
+ "total_votes": 198,
+ "choices": [
+  {
+   "text": "Yes! I have already pre-ordered and can't wait!!",
+   "votes": 56,
+   "weight": 0
+  },
+  {
+   "text": "Yes, probably on day of release!",
+   "votes": 40,
+   "weight": 1
+  },
+  {
+   "text": "Maybe, I want to try the demo first.",
+   "votes": 60,
+   "weight": 2
+  },
+  {
+   "text": "No, I don't plan on getting it.",
+   "votes": 42,
+   "weight": 3
+  }
+ ]
+}

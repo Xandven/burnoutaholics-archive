@@ -1,0 +1,43 @@
+{
+ "nid": "178",
+ "title": "Where did you hear about Burnoutaholics?",
+ "active": "0",
+ "total_votes": 50,
+ "choices": [
+  {
+   "text": "Xbox Forums",
+   "votes": 7,
+   "weight": 0
+  },
+  {
+   "text": "Operation Burnout",
+   "votes": 7,
+   "weight": 1
+  },
+  {
+   "text": "Google",
+   "votes": 0,
+   "weight": 2
+  },
+  {
+   "text": "Wikipedia",
+   "votes": 17,
+   "weight": 3
+  },
+  {
+   "text": "GTP",
+   "votes": 0,
+   "weight": 4
+  },
+  {
+   "text": "From a Burnoutaholic",
+   "votes": 15,
+   "weight": 5
+  },
+  {
+   "text": "Other",
+   "votes": 4,
+   "weight": 6
+  }
+ ]
+}

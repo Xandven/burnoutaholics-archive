@@ -1,0 +1,28 @@
+{
+ "nid": "370",
+ "title": "Are you fan enough to buy 10 copies of Paradise?",
+ "active": "0",
+ "total_votes": 21,
+ "choices": [
+  {
+   "text": "No Way!!",
+   "votes": 12,
+   "weight": 0
+  },
+  {
+   "text": "I will get 2 or 3..",
+   "votes": 3,
+   "weight": 1
+  },
+  {
+   "text": "Ofcourse I will get 10!",
+   "votes": 4,
+   "weight": 2
+  },
+  {
+   "text": "Only if I win the Lottery!!",
+   "votes": 2,
+   "weight": 3
+  }
+ ]
+}

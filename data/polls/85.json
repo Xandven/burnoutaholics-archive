@@ -1,0 +1,23 @@
+{
+ "nid": "85",
+ "title": "What do you want the next article on BurnoutAholics to be about?",
+ "active": "1",
+ "total_votes": 0,
+ "choices": [
+  {
+   "text": "Burnout 3 Takedown",
+   "votes": 0,
+   "weight": 0
+  },
+  {
+   "text": "Burnout Revenge",
+   "votes": 0,
+   "weight": 1
+  },
+  {
+   "text": "None of the above",
+   "votes": 0,
+   "weight": 2
+  }
+ ]
+}

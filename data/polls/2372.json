@@ -1,0 +1,18 @@
+{
+ "nid": "2372",
+ "title": "What do you think about our new Chat function?",
+ "active": "1",
+ "total_votes": 5,
+ "choices": [
+  {
+   "text": "It is awesome!",
+   "votes": 5,
+   "weight": 0
+  },
+  {
+   "text": "Why do we need a chat room?",
+   "votes": 0,
+   "weight": 1
+  }
+ ]
+}

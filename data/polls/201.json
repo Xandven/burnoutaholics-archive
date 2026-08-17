@@ -1,0 +1,33 @@
+{
+ "nid": "201",
+ "title": "Should BurnoutAholics.com have a forum?",
+ "active": "0",
+ "total_votes": 25,
+ "choices": [
+  {
+   "text": "Yes! I need a forum it's essential!",
+   "votes": 7,
+   "weight": 0
+  },
+  {
+   "text": "Yes, it would be a nice addition to the site.",
+   "votes": 7,
+   "weight": 1
+  },
+  {
+   "text": "I'm not bothered either way",
+   "votes": 2,
+   "weight": 2
+  },
+  {
+   "text": "No, it's not needed.",
+   "votes": 3,
+   "weight": 3
+  },
+  {
+   "text": "No! it would ruin the site, don't do it!!",
+   "votes": 6,
+   "weight": 4
+  }
+ ]
+}

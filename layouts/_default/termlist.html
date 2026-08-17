@@ -1,0 +1,40 @@
+{{ define "main" }}
+{{/* Taxonomy term listing, served at the original /taxonomy/term/<tid> path.
+     Drupal listed teasers here; this lists titles with attribution, which keeps
+     the page useful without re-rendering 2,000 bodies into listing pages. */}}
+{{ $tid := printf "%v" .Params.tid }}
+{{ $nodes := index .Site.Data.term_nodes $tid }}
+
+<h1 class="title" id="page-title">{{ .Title }}</h1>
+{{ with .Params.description }}<div class="taxonomy-term-description">{{ . | safeHTML }}</div>{{ end }}
+{{/* Two-tid pages take their title from the first term, as Drupal did, so name
+     both filters or the heading looks wrong (e.g. "General" for GCA 08). */}}
+{{ if .Params.filter_b }}
+  <p class="taxonomy-vocabulary"><em>Showing posts tagged
+     <strong>{{ .Params.filter_a }}</strong> and
+     <strong>{{ .Params.filter_b }}</strong></em></p>
+{{ else }}
+  {{ with .Params.vocabulary }}<p class="taxonomy-vocabulary"><em>{{ . }}</em></p>{{ end }}
+{{ end }}
+
+{{ if $nodes }}
+{{ $page := default 1 .Params.page }}{{ $per := default 10 .Params.per_page }}
+{{ $start := mul (sub $page 1) $per }}
+{{ $end := math.Min (add $start $per) (len $nodes) }}
+{{ $slice := first 0 $nodes }}{{ if lt $start (len $nodes) }}{{ $slice = after $start (first $end $nodes) }}{{ end }}
+{{ range $slice }}
+<div class="node node-{{ .type }} node-teaser clearfix">
+  <h2><a href="/node/{{ .nid }}">{{ .title }}</a></h2>
+  <div class="meta submitted">
+    <span class="submitted">
+      Submitted by <span class="username">{{ .author }}</span>
+      {{ with .created }}on {{ (time .).Format "Mon, 01/02/2006 - 15:04" }}{{ end }}
+    </span>
+  </div>
+</div>
+{{ end }}
+{{ partial "datapager.html" (dict "base" (printf "/taxonomy/term/%v" $tid) "page" (default 1 .Params.page) "pages" (default 1 .Params.pages)) }}
+{{ else }}
+<p>There is no content with this term.</p>
+{{ end }}
+{{ end }}

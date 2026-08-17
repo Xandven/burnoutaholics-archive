@@ -1,0 +1,46 @@
+[
+ {
+  "cid": "5159",
+  "pid": "5109",
+  "thread": "01.00.00.00/",
+  "subject": "Weird - but perhaps an IE8-issue...",
+  "author": "PhotonKitsune",
+  "uid": "1091",
+  "avatar": "/files/pictures/picture-1091.png",
+  "created": "2009-02-17T18:48:27+00:00",
+  "body": "<p>I use IE7 and just set the security to \"Medium\" and it worked all fine. Perhaps in IE8 they removed the unchecking of the said option when setting the overall-security to \"Medium\"...</p>\n<p>___</p>\n<p>BP PC gamer. IGN: PhotonKitsune</p>\n"
+ },
+ {
+  "cid": "5109",
+  "pid": "5106",
+  "thread": "01.00.00/",
+  "subject": "It's not as complicated as it sounds.",
+  "author": "Khanon",
+  "uid": "1072",
+  "avatar": "/files/pictures/picture-1072.jpg",
+  "created": "2009-02-13T01:06:31+00:00",
+  "body": "<p>hehe I could make an SWF (flash movie) of how to do it, if you'd like. The CG guys said you could simply enable scripts to alter the status bar... There's a reason that's turned off by default...it's a security hole in your browser that allows scripts to alter your bars, helping to mask forgery sites. You don't want to do that if you can avoid it.</p>\n<p>Let me know if you'd like me to SWF it...I have my own flash creator (I make tutorials in Flash for my workplace all the time...).</p>\n<p> </p>\n<p><i>No more games, no more teasing. Time to play...time to die. --Pinhead</i></p>\n"
+ },
+ {
+  "cid": "5106",
+  "pid": "5105",
+  "thread": "01.00/",
+  "subject": "Too Technical for me!",
+  "author": "ZombieTron",
+  "uid": "2",
+  "avatar": "/files/pictures/picture-2.jpg",
+  "created": "2009-02-12T22:19:52+00:00",
+  "body": "<p>I got lost half way through reading this! 💻 😲</p>\n"
+ },
+ {
+  "cid": "5105",
+  "pid": "0",
+  "thread": "01/",
+  "subject": "News on pc",
+  "author": "Xandu",
+  "uid": "1",
+  "avatar": "/files/pictures/picture-1.jpg",
+  "created": "2009-02-12T19:57:44+00:00",
+  "body": "<p>Thanks for spending the time finding a solution to this problem. I guess this one should be added to our FAQ for future reference.</p>\n<p>-- The Creator --</p>\n"
+ }
+]

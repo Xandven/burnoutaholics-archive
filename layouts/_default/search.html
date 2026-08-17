@@ -1,0 +1,48 @@
+{{ define "main" }}
+{{/* Static search, backed by a Pagefind index built after Hugo runs.
+
+     This replaces Drupal's database search, which does not merely stop working
+     on a static host — it had already stopped working in practice, timing out
+     after 20s on the live site.
+
+     Pagefind's own UI bundle is loaded here rather than site-wide, so the other
+     2,497 pages carry no search JavaScript at all. */}}
+
+<h1 class="title" id="page-title">Search</h1>
+
+<div id="search-page">
+  <div id="pagefind-search"></div>
+  <noscript>
+    <p>Search needs JavaScript. You can still browse by
+      <a href="/forum">forum</a>, <a href="/tracker">recent posts</a>, or the
+      menus in the sidebar.</p>
+  </noscript>
+</div>
+
+<link href="/pagefind/pagefind-ui.css" rel="stylesheet" />
+<script src="/pagefind/pagefind-ui.js"></script>
+<script>
+  window.addEventListener('DOMContentLoaded', function () {
+    var ui = new PagefindUI({
+      element: '#pagefind-search',
+      showSubResults: true,
+      showImages: false,
+      pageSize: 10,
+      resetStyles: false,
+      translations: {
+        placeholder: 'Search BurnoutAholics',
+        zero_results: 'No results for [SEARCH_TERM]'
+      }
+    });
+
+    // Honour ?q= so the header search box can hand off to this page, and so
+    // result links can be shared.
+    var q = new URLSearchParams(window.location.search).get('q');
+    if (q) {
+      ui.triggerSearch(q);
+      var input = document.querySelector('#pagefind-search input');
+      if (input) { input.value = q; }
+    }
+  });
+</script>
+{{ end }}

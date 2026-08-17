@@ -1,0 +1,20 @@
+---
+title: "Feedback"
+nid: 11
+type: "page"
+url: /node/11
+date: 2007-05-01T08:59:51+00:00
+lastmod: 2018-09-19T19:54:42+00:00
+author: "Xandu"
+draft: false
+promote: false
+sticky: false
+weight: 0
+summary: "We always welcome comments and suggestions. Use the form below to send us feedback.   'Comments');     $form['grp'] = array(      '#type' => 'fieldset',       '#title' => t('Details'),       '#collapsible' => FALSE,     );      $form['grp']['type'] = array(      '#type' => 'select',      '#title' => t('Type of feedback'),      '#options' => $period,      '#default_value' => 0,    );        $form['grp']['details'] = array(      '#type' => 'textarea',       '#title' => t('Enter you feedback below'),       '#wysiwyg' => false,      '#cols' => 60,       '#rows' => 5,       '#resizeable' => TRUE,    );      $form['grp']['email'] = array(      '#type' => 'textfield',       '#title' => t('Your e-mail address'),       '#size' => 30,       '#maxlength' => 64,     );      $form['submit'] = array(      '#type' => 'submit',      '#value' => t('Submit'),    );    return $form;  }    function feedback_form_submit($fid, $fv)   {    Sendmail($fv['values']['type'], $fv['values']['details'], $fv['values']['email']);  }    print drupal_get_form('feedback_form');    function Sendmail($FeedbackType, $details, $EMail)  {  // Do a simple validation of the email address  if(eregi(\"([[:alnum:]\\.\\-]+)(\\@[[:alnum:]\\.\\-]+\\.+)\", $EMail))  {    $to = \"admin@burnoutaholics.com\";   $subject = \"UserFeedback: Comments on BurnoutAholics.com\";       $from_header = \"From: $EMail\";                     if(eregi(\"viagra\", $details) || eregi(\"medic\", $details) || eregi(\"meds\", $details) || eregi(\"sdial\", $EMail) || eregi(\"rabbit\", $EMail) || eregi(\"prescription\", $details) || eregi(\"xshorturl\", $details) || eregi(\"xshourt\", $details)|| eregi(\"href\", $details))                  {                     drupal_set_message(\"Thank you! Your feedback has not been sent. We really appreciate getting spam :-)\");                  }                  else                  if(strlen($details) > 800)                  {                       drupal_set_message(\"Error: Your feedback exceeds the maximum length. \");                  }                  else   if($details != \"\")   {      //send mail - $subject & $contents come from surfer input      mail($to, $subject, $details, $from_header);                     drupal_set_message(\"Your feedback has been sent.\");                  }   else   {                     drupal_set_message(\"Error: You need to enter some text in the feedback field. \");   }  }  else  {       drupal_set_message(\"Error: $EMail is not a vaild e-mail address! \");  }    }  ?>  Please note that you have to enter a vaild e-mail address to send us feedback."
+terms:
+  - name: "Utils"
+    tid: 5
+views: 28949
+comment_count: 0
+---
+<p>You are welcome to get in touch with us on Twitter or Xbox if you have any suggestions or feedback.</p>

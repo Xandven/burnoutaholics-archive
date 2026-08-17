@@ -1,0 +1,24 @@
+[
+ {
+  "cid": "2020",
+  "pid": "2018",
+  "thread": "01.00/",
+  "subject": "Re: A bit buggy",
+  "author": "Xandu",
+  "uid": "1",
+  "avatar": "/files/pictures/picture-1.jpg",
+  "created": "2008-01-29T17:04:32+00:00",
+  "body": "<p>I've also noticed that if you are doing road rules joining people online does not work... might not be a bug but it is a little bit annoying.</p>\n<p>-- The Creator --</p>\n"
+ },
+ {
+  "cid": "2018",
+  "pid": "0",
+  "thread": "01/",
+  "subject": "A bit buggy",
+  "author": "Naarkesh",
+  "uid": "226",
+  "avatar": "/files/pictures/picture-226.jpg",
+  "created": "2008-01-29T16:59:22+00:00",
+  "body": "<p>I had a small bug last night wear after being in a freeburn challenge, the game would not respond to me pressing Dpad up. I could not activate road rules. Restarting fixed this for me.</p>\n<p>\n</p><p> </p>\n"
+ }
+]

@@ -1,0 +1,33 @@
+{
+ "nid": "1030",
+ "title": "Happy Cagney day to all BurnoutAholics?",
+ "active": "1",
+ "total_votes": 175,
+ "choices": [
+  {
+   "text": "I'm happy! I'm on the PS3",
+   "votes": 83,
+   "weight": 0
+  },
+  {
+   "text": "I'm happy but feel sorry for the poor XBox 360 users :-(",
+   "votes": 17,
+   "weight": 1
+  },
+  {
+   "text": "I'm on the 360 and I'm happy to wait",
+   "votes": 28,
+   "weight": 2
+  },
+  {
+   "text": "I'm on the 360 and I want my Cagney now! :-(",
+   "votes": 39,
+   "weight": 3
+  },
+  {
+   "text": "I don't care about Cagney",
+   "votes": 8,
+   "weight": 4
+  }
+ ]
+}

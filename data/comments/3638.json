@@ -1,0 +1,46 @@
+[
+ {
+  "cid": "8018",
+  "pid": "8017",
+  "thread": "01.00/",
+  "subject": "cool",
+  "author": "SUFFUR",
+  "uid": "6",
+  "avatar": "/files/pictures/picture-6.jpg",
+  "created": "2018-09-25T18:36:27+00:00",
+  "body": "<p>sweet ;)</p>\n"
+ },
+ {
+  "cid": "8020",
+  "pid": "8019",
+  "thread": "01.01.00/",
+  "subject": "Dangerous Driving (or Dangerous everything) page",
+  "author": "ZombieTron",
+  "uid": "2",
+  "avatar": "/files/pictures/picture-2.jpg",
+  "created": "2019-01-31T21:38:36+00:00",
+  "body": "<p>Yup, we have some serious updating to do... might get around to it one of these days!</p>\n<p>I would love to come and play, but for the same reason that new content is lacking a trip to come and play isn't really logistically possible for us at the mo.</p>\n<p>Glad you are still reading though Alex, and we are very much looking forward to playing Dangerous Driving when we can get our hands on it!</p>\n"
+ },
+ {
+  "cid": "8019",
+  "pid": "8017",
+  "thread": "01.01/",
+  "subject": "Some of us are still reading",
+  "author": "CrashedAlex",
+  "uid": "1998",
+  "avatar": null,
+  "created": "2019-01-15T14:14:33+00:00",
+  "body": "<p>Some of us are still reading you know....</p>\n<p>and what no Dangerous Driving page?</p>\n<p>anyone want to come and play it?</p>\n"
+ },
+ {
+  "cid": "8017",
+  "pid": "0",
+  "thread": "01/",
+  "subject": "Comments are back for members.",
+  "author": "Xandu",
+  "uid": "1",
+  "avatar": "/files/pictures/picture-1.jpg",
+  "created": "2018-09-22T18:34:22+00:00",
+  "body": "<p>Most of the issues with the site have now been fixed and members are now allowed to post comments.</p>\n"
+ }
+]

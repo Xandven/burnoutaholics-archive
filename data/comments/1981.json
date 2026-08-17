@@ -1,0 +1,79 @@
+[
+ {
+  "cid": "7195",
+  "pid": "7194",
+  "thread": "01.00/",
+  "subject": "Wasn't us... can't prove anything!",
+  "author": "ZombieTron",
+  "uid": "2",
+  "avatar": "/files/pictures/picture-2.jpg",
+  "created": "2011-06-01T16:13:04+00:00",
+  "body": "<p>As far as I know, we haven't done anything with the hall of fame for a very, very long time.</p>\n<p>Any recent requests haven't been added, and nobody's scores have been removed. (unless Xandu has done something without my knowledge anyway)</p>\n<p>Which Hall of Fame were you in? Or was it that you sent us your scores and we haven't put them in yet?</p>\n<p>Either way, I apologise for any distress caused. 🙂</p>\n"
+ },
+ {
+  "cid": "7194",
+  "pid": "0",
+  "thread": "01/",
+  "subject": "i assume it's well out of date",
+  "author": "SUFFUR",
+  "uid": "6",
+  "avatar": "/files/pictures/picture-6.jpg",
+  "created": "2011-06-01T09:38:57+00:00",
+  "body": "<p>But your scores are still on ur xbox/ps3!</p>\n<p>Patience is something I taught myself, so I never know when it's going to run out?</p>\n"
+ },
+ {
+  "cid": "7203",
+  "pid": "7199",
+  "thread": "02.00.00.00.00/",
+  "subject": "They were somewhere... where tho???",
+  "author": "ZombieTron",
+  "uid": "2",
+  "avatar": "/files/pictures/picture-2.jpg",
+  "created": "2011-06-29T09:18:58+00:00",
+  "body": "<p>I think some of the fan sites do Road Rules lists, obviously it would be for members of the site only, and have to be updated etc. Here is one site which does them; <a href=\"http://paradise360.proboards57.com/\">http://paradise360.proboards57.com/</a></p>\n<p>There is no official list tho... it's something that should have been included in the Criterion Games Network, looks like that might have been taken offline now?</p>\n<p> </p>\n"
+ },
+ {
+  "cid": "7199",
+  "pid": "7198",
+  "thread": "02.00.00.00/",
+  "subject": "No i ment Online",
+  "author": "Xedec",
+  "uid": "46",
+  "avatar": "/files/pictures/picture-46.png",
+  "created": "2011-06-10T21:13:00+00:00",
+  "body": "<p>I ment having online leaderboards sense I don't have my xbox at the moment once again... my dad keeps coming over and taking it from me... im 24 WTF! so any way I just want to see what some of the track times and road rule times are.</p>\n<p>(Dude!!... DAMN!)</p>\n"
+ },
+ {
+  "cid": "7198",
+  "pid": "7197",
+  "thread": "02.00.00/",
+  "subject": "er",
+  "author": "SUFFUR",
+  "uid": "6",
+  "avatar": "/files/pictures/picture-6.jpg",
+  "created": "2011-06-10T12:35:29+00:00",
+  "body": "<p>They are displayed using ur Back button, lol.</p>\n<p>Patience is something I taught myself, so I never know when it's going to run out?</p>\n"
+ },
+ {
+  "cid": "7197",
+  "pid": "7196",
+  "thread": "02.00/",
+  "subject": "Road rules",
+  "author": "Xedec",
+  "uid": "46",
+  "avatar": "/files/pictures/picture-46.png",
+  "created": "2011-06-10T01:04:36+00:00",
+  "body": "<p>I wish there was a way to see road rule times that would be great.</p>\n<p> </p>\n<p>(People play Road rage on purpose?!!)</p>\n"
+ },
+ {
+  "cid": "7196",
+  "pid": "0",
+  "thread": "02/",
+  "subject": "Hall of Fame fixed!",
+  "author": "Xandu",
+  "uid": "1",
+  "avatar": "/files/pictures/picture-1.jpg",
+  "created": "2011-06-02T08:00:49+00:00",
+  "body": "<p> </p>\n<p>Thank you for reporting this bug. It seems like the Hall of Fame stopped showing correctly almost a year ago when the site was upgraded to the latest version of PHP and MYSQL. I have now fixed all the leaderboards and increased the number of entries from 15 to 50 pr. leaderboard.</p>\n<p>As no scores have been added for quite some time we have decided to close the Hall of Fame. This means that no new entries can be added and the existing entries are locked.</p>\n<p>If someone wants to update their entries pm me with the relevant data and I will fix it for you. New entries will not be accepted.</p>\n<p>-- The Creator --</p>\n"
+ }
+]

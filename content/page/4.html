@@ -1,0 +1,27 @@
+---
+title: "BurnoutAholics Gamertag Generator"
+nid: 4
+type: "page"
+url: /node/4
+date: 2007-04-30T17:57:38+00:00
+lastmod: 2011-07-20T19:00:14+00:00
+author: "Xandu"
+draft: false
+promote: false
+sticky: false
+weight: 0
+summary: "This is the BurnoutAholics Gamertag Generator.   Enter your name and we will generate a Burnout related gamertag for you. One or both parts of the gamertag will normally be a word that most people associate with Burnout.   The gamertag generator has now been updated with 24000 more gamertags including words related to Burnout Paradise.   If you want the ultimate Burnout gamertag this is the tool to use.   'textfield',    '#size' => 25,    '#title' => t('Enter your name'),    '#required' => TRUE,     );     $form['submit'] = array(    '#type' => 'submit',    '#value' => t('Give me a gamertag!'),     );         return $form;   }    function namegen_form_submit($form,&$form_state)   {   GenerateName($form_state['values']['field']);  }    GetCombinations();  print drupal_get_form('namegen_form');    function GetCombinations()  {      $adj_array = file(\"files/bo_first\");      $noun_array = file(\"files/bo_last\");      $possibleCombos = sizeof($adj_array) * sizeof($noun_array);      print(\"There are $possibleCombos possible BurnoutAholics Gamertags.\");  }    function GenerateName($realname)  {      $displayname = $realname;      $realname = strtolower($realname);        /*== generate seed number from name submitted ==*/      $len = strlen($realname);      $gtlen = 0;      $seed = 0; $s = 0;      for ($e=1; $e 100)      {          /*== get the random numbers for each name first/last ==*/       $arnd = rand(0,sizeof($adj_array)-1);       $nrnd = rand(0,sizeof($noun_array)-1);          /*== create name from random numbers ==*/       $boname = \"$adj_array[$arnd] $noun_array[$nrnd]\";       $gtlen = strlen($boname);      }      drupal_set_message(t(\"Hi! My name is \\\"\".$boname.\"\\\" and I am a BurnoutAholic!\"));  }  ?>"
+terms:
+  - name: "Utils"
+    tid: 5
+  - name: "General"
+    tid: 20
+views: 332524
+comment_count: 0
+needs_crawl: true
+layout: gamertag
+---
+<p>This is the BurnoutAholics Gamertag Generator.<br />
+	Enter your name and we will generate a Burnout related gamertag for you. One or both parts of the gamertag will normally be a word that most people associate with Burnout.<br />
+	The gamertag generator has now been updated with 24000 more gamertags including words related to Burnout Paradise.<br />
+	If you want the ultimate Burnout gamertag this is the tool to use.</p>

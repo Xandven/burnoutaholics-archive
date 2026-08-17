@@ -1,0 +1,23 @@
+{
+ "nid": "1939",
+ "title": "Would you like to see BurnoutAholics on facebook?",
+ "active": "0",
+ "total_votes": 63,
+ "choices": [
+  {
+   "text": "Yes!",
+   "votes": 28,
+   "weight": 0
+  },
+  {
+   "text": "Not bothered either way",
+   "votes": 9,
+   "weight": 1
+  },
+  {
+   "text": "No! Stick to your principles, avoid facebook at all costs!!!",
+   "votes": 26,
+   "weight": 2
+  }
+ ]
+}

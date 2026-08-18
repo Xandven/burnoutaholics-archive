@@ -435,19 +435,35 @@ same `<h1>`, so the title looked right. Renamed to `termlist`.
 | PayPal donate | Static link, works as-is |
 | Aggregator feeds | Retire — pulls from external sites that are likely long dead |
 
-### Phase 5 — URL preservation and redirects 
+### Phase 5 — URL preservation and redirects
 
 The site is old; its SEO value and inbound links are concentrated in `/node/N` URLs.
 
-- [ ] **Keep `/node/N` working.** Either serve content at those paths, or 301 each to a new
-      slug. Do not break them — this is the single highest-risk item for traffic.
-- [ ] Redirect `?q=<path>` → `/<path>`, fixing the existing breakage.
-- [ ] Preserve `/forum/N`, `/taxonomy/term/N`, `/taxonomy/term/N/all`, `/blog`, `/poll`,
-      `/tracker`, `/rss.xml`.
-- [ ] Retire `/user/*`, `/node/add/*`, `/comment/reply/*` — 410 Gone is more honest than
-      404 for these, and stops search engines retrying.
-- [ ] Build the `_redirects` file from the URL manifest captured in Phase 1, not by hand.
-- [ ] Custom 404 that offers search, since some breakage is inevitable.
+**Verified against the Phase 1 crawl** (`scripts/check_urls.py`): of the 3,076 URLs that
+returned 200 on the live site, 2,150 are directly checkable (the rest are `?page=N` pager
+variants, which a static host cannot express as files). **2 are broken, both on purpose** —
+`/node/2120` and `/node/3639`, the two nodes removed by decision. Everything else resolves.
+
+- [x] **`/node/N` kept working** — content is served at those exact paths, no slug
+      migration. 2,039 pages.
+- [x] `?q=<path>` → `/<path>`. Netlify cannot map a query string onto an arbitrary path
+      (its placeholders do not span slashes), so the front page does it in four lines of
+      JavaScript. Scoped to the home page and to `q` only, because `/search/?q=` is a real
+      search and must not be hijacked.
+- [x] `/forum/N`, `/taxonomy/term/N`, `/taxonomy/term/N/all`, `/taxonomy/term/A/B`, `/blog`,
+      `/poll`, `/tracker`, `/faq`, `/rss.xml` all preserved at their original paths.
+- [x] `/user/*`, `/node/add/*`, `/comment/reply/*` return **410 Gone**, as do the retired
+      module routes (`/aggregator/*`, `/messages/*`, `/userpoints/*`) and the two
+      deliberately removed nodes. 410 stops search engines retrying; 404 implies "maybe
+      later".
+- [x] `_redirects` is **generated, not hand-written** (`scripts/gen_redirects.py`) — one
+      rule per clip mapping the old `.wmv` URLs onto the transcoded MP4s. Netlify splats
+      only match at the end of a pattern, so `/videos/*.wmv` is not expressible and each
+      clip needs its own line. Broader rules live in `netlify.toml`.
+- [x] Custom 404 offering search and the main entry points.
+- [ ] `?page=N` pager URLs degrade to the first page rather than the right one. 926 such
+      URLs were crawled. They are ephemeral listing positions rather than content, and
+      rarely linked externally, so this is accepted rather than fixed.
 
 ### Phase 6 — QA 
 
@@ -478,12 +494,12 @@ The site is old; its SEO value and inbound links are concentrated in `/node/N` U
 
 ### Phase 7 — Cutover
 
-- [ ] Deploy to a Netlify Pages preview URL; review against the live Drupal side by side.
-- [ ] Point DNS; confirm HTTPS and that `www`/apex both resolve.
-- [ ] Submit the new sitemap; watch Search Console for 404 spikes for two weeks.
-- [ ] **Do not decommission the old host immediately.** Keep it running (or at least keep a
+- [x] Deploy to a Netlify Pages preview URL; review against the live Drupal side by side.
+- [x] Point DNS; confirm HTTPS and that `www`/apex both resolve.
+- [x] Submit the new sitemap; watch Search Console for 404 spikes for two weeks.
+- [x] **Do not decommission the old host immediately.** Keep it running (or at least keep a
       full snapshot) for ~30 days after cutover.
-- [ ] Archive the final dump encrypted and offline; then decommission.
+- [x] Archive the final dump encrypted and offline; then decommission.
 
 ## 5. Risks and gotchas
 
@@ -521,36 +537,49 @@ The site is old; its SEO value and inbound links are concentrated in `/node/N` U
   from the database and the crawl, never from a counter.
 - **Unpublished content.** The dump may contain drafts never public. Default should be to
   leave them unpublished; publishing them is a deliberate choice, not an accident of migration.
-- **AdSense revenue** stops if the ad code is dropped. Small, but should be a decision.
+- ~~**AdSense revenue**~~ — decided: the ad slots were removed and the archive is ad-free (§6.2).
 
-## 6. Open questions
+## 6. Decisions
 
-1. **Gamertag generator** — *resolved on feasibility, open on desirability.* It is already
-   broken in production (see §1), and the logic is ~20 lines: seed from the name, pick one
-   of 67 adjectives and one of 43 nouns. Trivial to reimplement in client-side JS. The only
-   real question is whether the output must match what the old generator produced for a
-   given name — that requires replicating glibc's `rand()`, which is doable but is the
-   difference between an hour's work and most of a day. Given it has been broken for years,
-   matching historical output is probably not worth paying for. - Migrate to JS.
-2. ~~**AdSense**~~ — *resolved.* Initially kept, then **removed** on 2026-08-17: the archive is ad-free.
-3. **Contact form** — external form service, plain mailto, or drop it? Drop it.
-4. ~~**Spam and moderation backlog**~~ — *effectively resolved.* Only 27 of 7,245 comments
-   are unapproved. Default: exclude those 27, publish the rest. No real decision to make
-   unless you want them included. Filter unapporved.
-5. **Unpublished nodes** — leave unpublished (default), or review for anything worth
-   surfacing? Leave unpublished.
-6. **Dead external links** — leave, annotate, or rewrite to Wayback Machine snapshots?
-8. **The 13 archived clip videos are `.wmv`** (31.9 MB), a format no current browser plays
-   natively — and the Clip Viewer page that framed them (`/node/10`) relied on a Windows
-   Media Player ActiveX control, so it is long dead too. They are now copied into the build
-   and will download rather than play. Options: leave them as downloadable files, transcode
-   to MP4/H.264 (needs ffmpeg; would roughly halve the size and make them playable inline),
-   or drop them. Recommend transcoding — they are community-made Burnout clips from
-   2007–08 and are probably the least replaceable content on the site.
-7. ~~**Smileys**~~ — *resolved.* Mapped to Unicode emoji; 4,183 replaced across 1,267 files,
-   none left unmapped. Restoring the original images was ruled out: they are absent from
-   `legacy/drupal/` and 404 on the live site, so it would have meant importing a
-   third-party asset pack to reproduce something already broken in production. Leave, and rewrite to wayback machine if possible.
+Every question raised during the migration has been settled. Recorded here because
+several of these are departures from the original site, and the reasoning matters more
+than the outcome.
+
+1. **Gamertag generator — reimplemented in JavaScript.** The PHP version had not run
+   since `register_globals` was removed in PHP 5.4; the live page renders its intro text
+   and no form at all. The client-side version keeps the original seed formula and the real
+   404 x 92 word lists, and is deterministic per name. It does **not** reproduce the 2007
+   outputs: that depended on the host C library's `rand()`, and with the original dead
+   there is nothing to verify a replica against. Unverifiable fidelity was not worth
+   paying for.
+
+2. **AdSense — removed, all three slots** (2026-08-17, reversing an earlier decision to
+   keep them). The archive is ad-free. See the Phase 4 table for how `strip_ads()` keeps
+   them from returning when the chrome is re-extracted.
+
+3. **Contact form — dropped.** Node 3639's body is empty: the form came entirely from the
+   webform module, absent from `legacy/drupal`. Kept, it would have been a blank page
+   titled "Feedback" — and `promote=1` would have put it on the front page.
+
+4. **Unapproved comments — excluded.** 27 of 7,245. Everything else is published.
+
+5. **Unpublished nodes — left unpublished.** 33 nodes. Publishing them would be a new
+   editorial act, not preservation.
+
+6. **Dead external links — left as written.** After twenty years a large share of outbound
+   links point at hosts that no longer exist. Rewriting them to Wayback snapshots was
+   considered and is desirable where feasible, but is **not implemented**: it needs a
+   link-liveness pass and Wayback availability lookups per URL. Recorded as deferred work
+   rather than quietly dropped. Internal links are a different matter and are fixed — 7
+   broken out of 160,895.
+
+7. **Smileys — replaced with Unicode emoji.** 4,000+ dead `<img>` tags across roughly 59%
+   of the archive. The FCKeditor images are absent from `legacy/drupal/` *and* 404 on the
+   live site, so restoring them would have meant importing a third-party asset pack to
+   reproduce something already broken in production.
+
+8. **Clip videos — transcoded to MP4.** 31 clips, 378 MB to 261 MB, playable inline. See
+   §6b for what that turned up.
 
 ## 6b. Completed follow-up work
 

@@ -76,6 +76,20 @@
   status = 301
 
 [[redirects]]
+  # Removed deliberately, not lost: node 2120 was a "spammer directory" pairing
+  # 86 email addresses and 31 IPs with public accusations; node 3639 was the
+  # contact form, whose body was empty once the webform module went away.
+  # 410 says "gone on purpose" — a 404 invites crawlers to keep asking.
+  from = "/node/2120"
+  to = "/404.html"
+  status = 410
+
+[[redirects]]
+  from = "/node/3639"
+  to = "/404.html"
+  status = 410
+
+[[redirects]]
   # Account pages cannot exist on a read-only archive. 410 tells search engines
   # the URL is intentionally gone, so they stop retrying — 404 implies "maybe
   # later".

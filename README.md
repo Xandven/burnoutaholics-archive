@@ -8,9 +8,10 @@ The goal is preservation, not reinvention. The archive looks like the site it re
 Bartik theme, same fonts and colours, same logo, same 960px layout, and the same URLs. What
 changes is that nothing needs a database, a PHP runtime, or a security patch ever again.
 
-**Status:** content extraction, theme port and search are complete and verified. URL
-redirects, final QA and cutover are outstanding. See [`PLAN.md`](PLAN.md), which is the
-working plan of record and considerably more detailed than this file.
+**Status:** the archive builds and is deployable — content, theme, search, video
+transcoding, redirects and Netlify configuration are all in place. Final QA and the DNS
+cutover are outstanding. See [`PLAN.md`](PLAN.md), the working plan of record, which is
+considerably more detailed than this file and records why things are the way they are.
 
 ## What's here
 
@@ -77,11 +78,31 @@ MySQL server is needed — `scripts/dumpq.py` reads mysqldump files directly.
 To rebuild only the content from the dump (requires `legacy/`):
 
 ```bash
-./scripts/build_content.sh   # extract → listings → rewrite → scrub PII → emoji
+./scripts/build_content.sh   # extract → listings → rewrite links → video players
+                             # → scrub personal data → emoji
 ```
 
 Order matters and the script enforces it; running the steps by hand in the wrong order
-fails silently.
+fails silently. `content/` and `data/` are wiped and regenerated each run, so a manual
+edit there will not survive — change the scripts instead.
+
+## Deploying
+
+Netlify builds from the committed `content/` and `data/`; it does **not** regenerate them
+from the dump, because `legacy/` never leaves the maintainer's machine. The deploy is only
+the last two steps of the local build:
+
+```
+hugo --gc  →  pagefind --site public
+```
+
+`netlify.toml` pins the Hugo and Node versions, sets caching headers, and holds the
+redirects that keep old URLs alive: `/node` → `/`, 410s for account and posting routes, and
+— generated into `static/_redirects` by `scripts/gen_redirects.py` — one rule per clip
+mapping the old `.wmv` URLs onto the transcoded MP4s.
+
+If you change anything under `scripts/`, rebuild locally and commit the regenerated
+`content/`, `data/` and `static/_redirects`. Netlify will not do it for you.
 
 ### Verification tooling
 

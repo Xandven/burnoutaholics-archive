@@ -63,6 +63,8 @@ summaryLength = 40
     target = "static"
 
 [params]
+  # Empty this to remove the support block site-wide.
+  buyMeACoffee = "https://buymeacoffee.com/xandvenk"
   siteName = "BurnoutAholics.com"
   slogan = "Feed your addiction!"
   logo = "/files/NewBALogo.png"

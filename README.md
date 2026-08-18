@@ -151,6 +151,15 @@ Email addresses, IP addresses, password hashes and the site's 3,608 private mess
 wrote something here and want it removed, see
 [removal requests](CONTENT-LICENCE.md#removal-requests).
 
+## Support
+
+The archive is hosted out of pocket. If it is worth something to you,
+[buy me a coffee](https://buymeacoffee.com/xandvenk) — it covers the domain and
+hosting.
+
+The site carried Google ads for most of its life; they were removed when it became an
+archive, so this is the only thing keeping it funded.
+
 ## Credit
 
 BurnoutAholics.com was created and run by **Kristian Sandven** ("Xandu"), with

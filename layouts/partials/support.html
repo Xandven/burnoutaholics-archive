@@ -1,0 +1,20 @@
+{{/* Support block.
+
+     Sits where Drupal's "Support US!" ad block used to be. That block paid for
+     the site with AdSense; the ads are gone, so this asks directly instead —
+     which is both more honest and less intrusive than what it replaces.
+
+     The URL comes from hugo.toml (params.buyMeACoffee) so it can be changed or
+     emptied without editing a template; blank and this renders nothing. */}}
+{{- with .Site.Params.buyMeACoffee }}
+<div id="block-support" class="block block-support">
+  <h2>Support this archive</h2>
+  <div class="content">
+    <p>BurnoutAholics is kept online out of pocket. If nineteen years of Burnout
+       history is worth something to you, chipping in covers the domain and
+       hosting.</p>
+    <p><a href="{{ . }}" class="support-link" rel="noopener"
+          target="_blank">Buy me a coffee</a></p>
+  </div>
+</div>
+{{- end }}

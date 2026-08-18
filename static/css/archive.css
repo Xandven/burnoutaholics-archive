@@ -177,3 +177,31 @@ video.archived-clip {
   font-size: 0.85em;
   opacity: 0.75;
 }
+
+/* --- support block ------------------------------------------------------ */
+/*
+ * Occupies the sidebar slot the removed "Support US!" AdSense block used to
+ * hold. Styled as a Bartik sidebar block so it sits with the menus rather than
+ * shouting over them — this is a request, not an advert.
+ */
+
+#block-support .content p {
+  margin: 0 0 0.6em;
+  font-size: 0.923em;
+}
+
+a.support-link {
+  display: inline-block;
+  padding: 0.45em 0.9em;
+  border-radius: 3px;
+  background: #d61111;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a.support-link:hover,
+a.support-link:focus {
+  background: #ff0f0f;
+  color: #fff;
+}

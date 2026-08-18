@@ -1,4 +1,0 @@
-# Adds a "Sponsor" button to the repository header and the sidebar of every
-# issue and pull request. GitHub has a first-class key for Buy Me a Coffee, so
-# it renders with the right name and icon rather than as a generic link.
-buy_me_a_coffee: xandvenk
